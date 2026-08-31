@@ -1,0 +1,1024 @@
+[
+  {
+    "file": "core/arrested.md",
+    "slug": "arrested",
+    "page_type": "core",
+    "title": "You Have Been Arrested | What Happens Now",
+    "h1": "You have been arrested. What happens now",
+    "primary_keyword": "arrested in ireland what happens",
+    "parent": "index",
+    "internal_links": [
+      "index",
+      "your-rights",
+      "legal-aid",
+      "family-member-arrested",
+      "weekend-out-of-hours"
+    ],
+    "schema": "WebPage",
+    "hero_image": "corridor",
+    "word_count": 1128
+  },
+  {
+    "file": "core/contact.md",
+    "slug": "contact",
+    "page_type": "core",
+    "title": "Contact Us | 24 Hour Garda Station Solicitors, Dublin",
+    "h1": "Contact us",
+    "primary_keyword": "contact garda station solicitor dublin",
+    "parent": "index",
+    "internal_links": [
+      "index",
+      "weekend-out-of-hours",
+      "arrested",
+      "tony-collier",
+      "legal-aid"
+    ],
+    "schema": "LegalService",
+    "hero_image": "georgian-door",
+    "word_count": 887
+  },
+  {
+    "file": "core/family-member-arrested.md",
+    "slug": "family-member-arrested",
+    "page_type": "core",
+    "title": "My Family Member Has Been Arrested | What To Do",
+    "h1": "Someone you love has been arrested",
+    "primary_keyword": "family member arrested ireland",
+    "parent": "index",
+    "internal_links": [
+      "index",
+      "arrested",
+      "your-rights",
+      "weekend-out-of-hours",
+      "legal-aid"
+    ],
+    "schema": "WebPage",
+    "hero_image": "consultation-room",
+    "word_count": 1132
+  },
+  {
+    "file": "core/index.md",
+    "slug": "index",
+    "page_type": "core",
+    "title": "Garda Station Solicitors | 24 Hour Advice, Dublin",
+    "h1": "Before you say anything to the Gardai, speak to a solicitor",
+    "primary_keyword": "garda station solicitor",
+    "parent": null,
+    "internal_links": [
+      "your-rights",
+      "arrested",
+      "voluntary-attendance",
+      "legal-aid",
+      "weekend-out-of-hours",
+      "family-member-arrested",
+      "tony-collier",
+      "contact"
+    ],
+    "schema": "LegalService",
+    "hero_image": "hero-dublin",
+    "word_count": 1134
+  },
+  {
+    "file": "core/legal-aid.md",
+    "slug": "legal-aid",
+    "page_type": "core",
+    "title": "Legal Aid and Free Legal Advice at a Garda Station",
+    "h1": "Legal aid and free legal advice",
+    "primary_keyword": "garda station legal advice scheme",
+    "parent": "index",
+    "internal_links": [
+      "index",
+      "your-rights",
+      "arrested",
+      "contact",
+      "weekend-out-of-hours"
+    ],
+    "schema": "WebPage",
+    "hero_image": "consultation-room",
+    "word_count": 1122
+  },
+  {
+    "file": "core/tony-collier.md",
+    "slug": "tony-collier",
+    "page_type": "core",
+    "title": "Tony Collier | Criminal Defence Solicitor, Dublin",
+    "h1": "Tony Collier and the criminal defence team",
+    "primary_keyword": "tony collier solicitor",
+    "parent": "index",
+    "internal_links": [
+      "index",
+      "arrested",
+      "your-rights",
+      "weekend-out-of-hours",
+      "contact"
+    ],
+    "schema": "Attorney",
+    "hero_image": "law-library",
+    "word_count": 1056
+  },
+  {
+    "file": "core/voluntary-attendance.md",
+    "slug": "voluntary-attendance",
+    "page_type": "core",
+    "title": "Asked to Attend a Garda Station Voluntarily",
+    "h1": "Asked to attend a Garda station voluntarily",
+    "primary_keyword": "voluntary attendance garda station",
+    "parent": "index",
+    "internal_links": [
+      "index",
+      "your-rights",
+      "arrested",
+      "legal-aid",
+      "contact"
+    ],
+    "schema": "WebPage",
+    "hero_image": "georgian-door",
+    "word_count": 1130
+  },
+  {
+    "file": "core/weekend-out-of-hours.md",
+    "slug": "weekend-out-of-hours",
+    "page_type": "core",
+    "title": "Weekend and Out of Hours Solicitor | Garda Stations",
+    "h1": "Nights, weekends and bank holidays",
+    "primary_keyword": "weekend solicitor garda station",
+    "parent": "index",
+    "internal_links": [
+      "index",
+      "arrested",
+      "your-rights",
+      "family-member-arrested",
+      "contact"
+    ],
+    "schema": "LegalService",
+    "hero_image": "night-street",
+    "word_count": 1123
+  },
+  {
+    "file": "core/your-rights.md",
+    "slug": "your-rights",
+    "page_type": "core",
+    "title": "Your Rights in a Garda Station | What You Are Entitled To",
+    "h1": "Your rights in a Garda station",
+    "primary_keyword": "rights in a garda station",
+    "parent": "index",
+    "internal_links": [
+      "index",
+      "arrested",
+      "legal-aid",
+      "voluntary-attendance",
+      "contact"
+    ],
+    "schema": "WebPage",
+    "hero_image": "law-library",
+    "word_count": 1121
+  },
+  {
+    "file": "counties/garda-station-solicitor-carlow.md",
+    "slug": "garda-station-solicitor-carlow",
+    "page_type": "county",
+    "title": "Garda Station Solicitors Carlow | 24 Hour Legal Advice",
+    "h1": "Garda station solicitors in Carlow",
+    "primary_keyword": "garda station solicitor carlow",
+    "parent": "nationwide",
+    "internal_links": [
+      "your-rights",
+      "legal-aid",
+      "arrested",
+      "garda-station-solicitor-dublin"
+    ],
+    "schema": "LegalService",
+    "hero_image": "night-street",
+    "word_count": 657
+  },
+  {
+    "file": "counties/garda-station-solicitor-cavan.md",
+    "slug": "garda-station-solicitor-cavan",
+    "page_type": "county",
+    "title": "Garda Station Solicitors Cavan | 24 Hour Legal Advice",
+    "h1": "Garda station solicitors in Cavan",
+    "primary_keyword": "garda station solicitor cavan",
+    "parent": "nationwide",
+    "internal_links": [
+      "your-rights",
+      "legal-aid",
+      "arrested",
+      "voluntary-attendance"
+    ],
+    "schema": "LegalService",
+    "hero_image": "night-street",
+    "word_count": 627
+  },
+  {
+    "file": "counties/garda-station-solicitor-clare.md",
+    "slug": "garda-station-solicitor-clare",
+    "page_type": "county",
+    "title": "Garda Station Solicitors Clare | 24 Hour Legal Advice",
+    "h1": "Garda station solicitors in Clare",
+    "primary_keyword": "garda station solicitor clare",
+    "parent": "nationwide",
+    "internal_links": [
+      "your-rights",
+      "legal-aid",
+      "arrested",
+      "voluntary-attendance"
+    ],
+    "schema": "LegalService",
+    "hero_image": "night-street",
+    "word_count": 646
+  },
+  {
+    "file": "counties/garda-station-solicitor-cork.md",
+    "slug": "garda-station-solicitor-cork",
+    "page_type": "county",
+    "title": "Garda Station Solicitors Cork | 24 Hour Legal Advice",
+    "h1": "Garda station solicitors in Cork",
+    "primary_keyword": "garda station solicitor cork",
+    "parent": "nationwide",
+    "internal_links": [
+      "your-rights",
+      "legal-aid",
+      "arrested",
+      "voluntary-attendance"
+    ],
+    "schema": "LegalService",
+    "hero_image": "night-street",
+    "word_count": 641
+  },
+  {
+    "file": "counties/garda-station-solicitor-donegal.md",
+    "slug": "garda-station-solicitor-donegal",
+    "page_type": "county",
+    "title": "Garda Station Solicitors Donegal | 24 Hour Advice",
+    "h1": "Garda station solicitors in Donegal",
+    "primary_keyword": "garda station solicitor donegal",
+    "parent": "nationwide",
+    "internal_links": [
+      "your-rights",
+      "legal-aid",
+      "arrested",
+      "weekend-out-of-hours"
+    ],
+    "schema": "LegalService",
+    "hero_image": "night-street",
+    "word_count": 659
+  },
+  {
+    "file": "counties/garda-station-solicitor-dublin.md",
+    "slug": "garda-station-solicitor-dublin",
+    "page_type": "county",
+    "title": "Garda Station Solicitors Dublin | 24 Hour Legal Advice",
+    "h1": "Garda station solicitors in Dublin",
+    "primary_keyword": "garda station solicitor dublin",
+    "parent": "nationwide",
+    "internal_links": [
+      "your-rights",
+      "legal-aid",
+      "arrested",
+      "criminal-courts-of-justice"
+    ],
+    "schema": "LegalService",
+    "hero_image": "hero-dublin",
+    "word_count": 657
+  },
+  {
+    "file": "counties/garda-station-solicitor-galway.md",
+    "slug": "garda-station-solicitor-galway",
+    "page_type": "county",
+    "title": "Garda Station Solicitors Galway | 24 Hour Advice",
+    "h1": "Garda station solicitors in Galway",
+    "primary_keyword": "garda station solicitor galway",
+    "parent": "nationwide",
+    "internal_links": [
+      "your-rights",
+      "legal-aid",
+      "arrested",
+      "voluntary-attendance"
+    ],
+    "schema": "LegalService",
+    "hero_image": "night-street",
+    "word_count": 673
+  },
+  {
+    "file": "counties/garda-station-solicitor-kerry.md",
+    "slug": "garda-station-solicitor-kerry",
+    "page_type": "county",
+    "title": "Garda Station Solicitors Kerry | 24 Hour Legal Advice",
+    "h1": "Garda station solicitors in Kerry",
+    "primary_keyword": "garda station solicitor kerry",
+    "parent": "nationwide",
+    "internal_links": [
+      "your-rights",
+      "legal-aid",
+      "arrested",
+      "weekend-out-of-hours"
+    ],
+    "schema": "LegalService",
+    "hero_image": "night-street",
+    "word_count": 664
+  },
+  {
+    "file": "counties/garda-station-solicitor-kildare.md",
+    "slug": "garda-station-solicitor-kildare",
+    "page_type": "county",
+    "title": "Garda Station Solicitors Kildare | 24 Hour Legal Advice",
+    "h1": "Garda station solicitors in Kildare",
+    "primary_keyword": "garda station solicitor kildare",
+    "parent": "nationwide",
+    "internal_links": [
+      "your-rights",
+      "legal-aid",
+      "arrested",
+      "garda-station-solicitor-dublin"
+    ],
+    "schema": "LegalService",
+    "hero_image": "night-street",
+    "word_count": 641
+  },
+  {
+    "file": "counties/garda-station-solicitor-kilkenny.md",
+    "slug": "garda-station-solicitor-kilkenny",
+    "page_type": "county",
+    "title": "Garda Station Solicitors Kilkenny | 24 Hour Advice",
+    "h1": "Garda station solicitors in Kilkenny",
+    "primary_keyword": "garda station solicitor kilkenny",
+    "parent": "nationwide",
+    "internal_links": [
+      "your-rights",
+      "legal-aid",
+      "arrested",
+      "garda-station-solicitor-dublin"
+    ],
+    "schema": "LegalService",
+    "hero_image": "night-street",
+    "word_count": 646
+  },
+  {
+    "file": "counties/garda-station-solicitor-laois.md",
+    "slug": "garda-station-solicitor-laois",
+    "page_type": "county",
+    "title": "Garda Station Solicitors Laois | 24 Hour Legal Advice",
+    "h1": "Garda station solicitors in Laois",
+    "primary_keyword": "garda station solicitor laois",
+    "parent": "nationwide",
+    "internal_links": [
+      "your-rights",
+      "legal-aid",
+      "arrested",
+      "garda-station-solicitor-dublin"
+    ],
+    "schema": "LegalService",
+    "hero_image": "night-street",
+    "word_count": 635
+  },
+  {
+    "file": "counties/garda-station-solicitor-leitrim.md",
+    "slug": "garda-station-solicitor-leitrim",
+    "page_type": "county",
+    "title": "Garda Station Solicitors Leitrim | 24 Hour Advice",
+    "h1": "Garda station solicitors in Leitrim",
+    "primary_keyword": "garda station solicitor leitrim",
+    "parent": "nationwide",
+    "internal_links": [
+      "your-rights",
+      "legal-aid",
+      "arrested",
+      "family-member-arrested"
+    ],
+    "schema": "LegalService",
+    "hero_image": "night-street",
+    "word_count": 635
+  },
+  {
+    "file": "counties/garda-station-solicitor-limerick.md",
+    "slug": "garda-station-solicitor-limerick",
+    "page_type": "county",
+    "title": "Garda Station Solicitors Limerick | 24 Hour Advice",
+    "h1": "Garda station solicitors in Limerick",
+    "primary_keyword": "garda station solicitor limerick",
+    "parent": "nationwide",
+    "internal_links": [
+      "your-rights",
+      "legal-aid",
+      "arrested",
+      "voluntary-attendance"
+    ],
+    "schema": "LegalService",
+    "hero_image": "night-street",
+    "word_count": 666
+  },
+  {
+    "file": "counties/garda-station-solicitor-longford.md",
+    "slug": "garda-station-solicitor-longford",
+    "page_type": "county",
+    "title": "Garda Station Solicitors Longford | 24 Hour Advice",
+    "h1": "Garda station solicitors in Longford",
+    "primary_keyword": "garda station solicitor longford",
+    "parent": "nationwide",
+    "internal_links": [
+      "your-rights",
+      "legal-aid",
+      "arrested",
+      "garda-station-solicitor-dublin"
+    ],
+    "schema": "LegalService",
+    "hero_image": "night-street",
+    "word_count": 636
+  },
+  {
+    "file": "counties/garda-station-solicitor-louth.md",
+    "slug": "garda-station-solicitor-louth",
+    "page_type": "county",
+    "title": "Garda Station Solicitors Louth | 24 Hour Legal Advice",
+    "h1": "Garda station solicitors in Louth",
+    "primary_keyword": "garda station solicitor louth",
+    "parent": "nationwide",
+    "internal_links": [
+      "your-rights",
+      "legal-aid",
+      "arrested",
+      "garda-station-solicitor-dublin"
+    ],
+    "schema": "LegalService",
+    "hero_image": "night-street",
+    "word_count": 662
+  },
+  {
+    "file": "counties/garda-station-solicitor-mayo.md",
+    "slug": "garda-station-solicitor-mayo",
+    "page_type": "county",
+    "title": "Garda Station Solicitors Mayo | 24 Hour Legal Advice",
+    "h1": "Garda station solicitors in Mayo",
+    "primary_keyword": "garda station solicitor mayo",
+    "parent": "nationwide",
+    "internal_links": [
+      "your-rights",
+      "legal-aid",
+      "arrested",
+      "weekend-out-of-hours"
+    ],
+    "schema": "LegalService",
+    "hero_image": "night-street",
+    "word_count": 664
+  },
+  {
+    "file": "counties/garda-station-solicitor-meath.md",
+    "slug": "garda-station-solicitor-meath",
+    "page_type": "county",
+    "title": "Garda Station Solicitors Meath | 24 Hour Legal Advice",
+    "h1": "Garda station solicitors in Meath",
+    "primary_keyword": "garda station solicitor meath",
+    "parent": "nationwide",
+    "internal_links": [
+      "your-rights",
+      "legal-aid",
+      "arrested",
+      "garda-station-solicitor-dublin"
+    ],
+    "schema": "LegalService",
+    "hero_image": "night-street",
+    "word_count": 630
+  },
+  {
+    "file": "counties/garda-station-solicitor-monaghan.md",
+    "slug": "garda-station-solicitor-monaghan",
+    "page_type": "county",
+    "title": "Garda Station Solicitors Monaghan | 24 Hour Advice",
+    "h1": "Garda station solicitors in Monaghan",
+    "primary_keyword": "garda station solicitor monaghan",
+    "parent": "nationwide",
+    "internal_links": [
+      "your-rights",
+      "legal-aid",
+      "arrested",
+      "family-member-arrested"
+    ],
+    "schema": "LegalService",
+    "hero_image": "night-street",
+    "word_count": 656
+  },
+  {
+    "file": "counties/garda-station-solicitor-offaly.md",
+    "slug": "garda-station-solicitor-offaly",
+    "page_type": "county",
+    "title": "Garda Station Solicitors Offaly | 24 Hour Legal Advice",
+    "h1": "Garda station solicitors in Offaly",
+    "primary_keyword": "garda station solicitor offaly",
+    "parent": "nationwide",
+    "internal_links": [
+      "your-rights",
+      "legal-aid",
+      "arrested",
+      "garda-station-solicitor-dublin"
+    ],
+    "schema": "LegalService",
+    "hero_image": "night-street",
+    "word_count": 630
+  },
+  {
+    "file": "counties/garda-station-solicitor-roscommon.md",
+    "slug": "garda-station-solicitor-roscommon",
+    "page_type": "county",
+    "title": "Garda Station Solicitors Roscommon | 24 Hour Advice",
+    "h1": "Garda station solicitors in Roscommon",
+    "primary_keyword": "garda station solicitor roscommon",
+    "parent": "nationwide",
+    "internal_links": [
+      "your-rights",
+      "legal-aid",
+      "arrested",
+      "family-member-arrested"
+    ],
+    "schema": "LegalService",
+    "hero_image": "night-street",
+    "word_count": 638
+  },
+  {
+    "file": "counties/garda-station-solicitor-sligo.md",
+    "slug": "garda-station-solicitor-sligo",
+    "page_type": "county",
+    "title": "Garda Station Solicitors Sligo | 24 Hour Legal Advice",
+    "h1": "Garda station solicitors in Sligo",
+    "primary_keyword": "garda station solicitor sligo",
+    "parent": "nationwide",
+    "internal_links": [
+      "your-rights",
+      "legal-aid",
+      "arrested",
+      "weekend-out-of-hours"
+    ],
+    "schema": "LegalService",
+    "hero_image": "night-street",
+    "word_count": 642
+  },
+  {
+    "file": "counties/garda-station-solicitor-tipperary.md",
+    "slug": "garda-station-solicitor-tipperary",
+    "page_type": "county",
+    "title": "Garda Station Solicitors Tipperary | 24 Hour Advice",
+    "h1": "Garda station solicitors in Tipperary",
+    "primary_keyword": "garda station solicitor tipperary",
+    "parent": "nationwide",
+    "internal_links": [
+      "your-rights",
+      "legal-aid",
+      "arrested",
+      "voluntary-attendance"
+    ],
+    "schema": "LegalService",
+    "hero_image": "night-street",
+    "word_count": 629
+  },
+  {
+    "file": "counties/garda-station-solicitor-waterford.md",
+    "slug": "garda-station-solicitor-waterford",
+    "page_type": "county",
+    "title": "Garda Station Solicitors Waterford | 24 Hour Advice",
+    "h1": "Garda station solicitors in Waterford",
+    "primary_keyword": "garda station solicitor waterford",
+    "parent": "nationwide",
+    "internal_links": [
+      "your-rights",
+      "legal-aid",
+      "arrested",
+      "weekend-out-of-hours"
+    ],
+    "schema": "LegalService",
+    "hero_image": "night-street",
+    "word_count": 634
+  },
+  {
+    "file": "counties/garda-station-solicitor-westmeath.md",
+    "slug": "garda-station-solicitor-westmeath",
+    "page_type": "county",
+    "title": "Garda Station Solicitors Westmeath | 24 Hour Advice",
+    "h1": "Garda station solicitors in Westmeath",
+    "primary_keyword": "garda station solicitor westmeath",
+    "parent": "nationwide",
+    "internal_links": [
+      "your-rights",
+      "legal-aid",
+      "arrested",
+      "garda-station-solicitor-dublin"
+    ],
+    "schema": "LegalService",
+    "hero_image": "night-street",
+    "word_count": 637
+  },
+  {
+    "file": "counties/garda-station-solicitor-wexford.md",
+    "slug": "garda-station-solicitor-wexford",
+    "page_type": "county",
+    "title": "Garda Station Solicitors Wexford | 24 Hour Advice",
+    "h1": "Garda station solicitors in Wexford",
+    "primary_keyword": "garda station solicitor wexford",
+    "parent": "nationwide",
+    "internal_links": [
+      "your-rights",
+      "legal-aid",
+      "arrested",
+      "garda-station-solicitor-dublin"
+    ],
+    "schema": "LegalService",
+    "hero_image": "night-street",
+    "word_count": 659
+  },
+  {
+    "file": "counties/garda-station-solicitor-wicklow.md",
+    "slug": "garda-station-solicitor-wicklow",
+    "page_type": "county",
+    "title": "Garda Station Solicitors Wicklow | 24 Hour Legal Advice",
+    "h1": "Garda station solicitors in Wicklow",
+    "primary_keyword": "garda station solicitor wicklow",
+    "parent": "nationwide",
+    "internal_links": [
+      "your-rights",
+      "legal-aid",
+      "arrested",
+      "garda-station-solicitor-dublin"
+    ],
+    "schema": "LegalService",
+    "hero_image": "night-street",
+    "word_count": 635
+  },
+  {
+    "file": "courts/central-criminal-court.md",
+    "slug": "central-criminal-court",
+    "page_type": "court",
+    "title": "Central Criminal Court | The Most Serious Charges",
+    "h1": "The Central Criminal Court",
+    "primary_keyword": "central criminal court",
+    "parent": "index",
+    "internal_links": [
+      "circuit-criminal-court",
+      "criminal-courts-of-justice",
+      "dublin-district-court",
+      "tony-collier"
+    ],
+    "schema": "LegalService",
+    "hero_image": "courts",
+    "word_count": 757
+  },
+  {
+    "file": "courts/childrens-court.md",
+    "slug": "childrens-court",
+    "page_type": "court",
+    "title": "Children's Court, Smithfield | Solicitor for Under 18s",
+    "h1": "The Children's Court at Smithfield",
+    "primary_keyword": "childrens court smithfield",
+    "parent": "index",
+    "internal_links": [
+      "dublin-district-court",
+      "criminal-courts-of-justice",
+      "family-member-arrested",
+      "your-rights",
+      "legal-aid"
+    ],
+    "schema": "LegalService",
+    "hero_image": "courts",
+    "word_count": 771
+  },
+  {
+    "file": "courts/circuit-criminal-court.md",
+    "slug": "circuit-criminal-court",
+    "page_type": "court",
+    "title": "Circuit Criminal Court | Sent Forward for Trial by Jury",
+    "h1": "The Circuit Criminal Court: trial by judge and jury",
+    "primary_keyword": "circuit criminal court",
+    "parent": "index",
+    "internal_links": [
+      "dublin-district-court",
+      "criminal-courts-of-justice",
+      "central-criminal-court",
+      "tony-collier"
+    ],
+    "schema": "LegalService",
+    "hero_image": "courts",
+    "word_count": 760
+  },
+  {
+    "file": "courts/criminal-courts-of-justice.md",
+    "slug": "criminal-courts-of-justice",
+    "page_type": "court",
+    "title": "Criminal Courts of Justice, Parkgate Street | Ferrys",
+    "h1": "The Criminal Courts of Justice, Parkgate Street",
+    "primary_keyword": "criminal courts of justice",
+    "parent": "index",
+    "internal_links": [
+      "dublin-district-court",
+      "circuit-criminal-court",
+      "central-criminal-court",
+      "special-criminal-court",
+      "childrens-court",
+      "tony-collier"
+    ],
+    "schema": "LegalService",
+    "hero_image": "courts",
+    "word_count": 753
+  },
+  {
+    "file": "courts/dublin-district-court.md",
+    "slug": "dublin-district-court",
+    "page_type": "court",
+    "title": "Dublin District Court | First Appearance, Bail, Remands",
+    "h1": "The District Court: where almost every criminal case begins",
+    "primary_keyword": "dublin district court",
+    "parent": "index",
+    "internal_links": [
+      "criminal-courts-of-justice",
+      "circuit-criminal-court",
+      "arrested",
+      "legal-aid"
+    ],
+    "schema": "LegalService",
+    "hero_image": "courts",
+    "word_count": 761
+  },
+  {
+    "file": "courts/special-criminal-court.md",
+    "slug": "special-criminal-court",
+    "page_type": "court",
+    "title": "Special Criminal Court | Non-Jury Trial Explained",
+    "h1": "The Special Criminal Court",
+    "primary_keyword": "special criminal court",
+    "parent": "index",
+    "internal_links": [
+      "circuit-criminal-court",
+      "central-criminal-court",
+      "criminal-courts-of-justice",
+      "tony-collier"
+    ],
+    "schema": "LegalService",
+    "hero_image": "courts",
+    "word_count": 751
+  },
+  {
+    "file": "dublin/garda-station-solicitor-artane.md",
+    "slug": "garda-station-solicitor-artane",
+    "page_type": "dublin-office",
+    "title": "Garda Station Solicitor Artane | Dublin 5",
+    "h1": "Garda station solicitors in Artane, Dublin 5",
+    "primary_keyword": "garda station solicitor artane",
+    "parent": "garda-station-solicitor-dublin",
+    "internal_links": [
+      "garda-station-solicitor-dublin",
+      "your-rights",
+      "legal-aid",
+      "arrested"
+    ],
+    "schema": "LegalService",
+    "hero_image": "georgian-door",
+    "word_count": 615
+  },
+  {
+    "file": "dublin/garda-station-solicitor-ballyfermot.md",
+    "slug": "garda-station-solicitor-ballyfermot",
+    "page_type": "dublin-office",
+    "title": "Garda Station Solicitor Ballyfermot | Dublin 10",
+    "h1": "Garda station solicitors in Ballyfermot, Dublin 10",
+    "primary_keyword": "garda station solicitor ballyfermot",
+    "parent": "garda-station-solicitor-dublin",
+    "internal_links": [
+      "garda-station-solicitor-dublin",
+      "your-rights",
+      "legal-aid",
+      "arrested"
+    ],
+    "schema": "LegalService",
+    "hero_image": "georgian-door",
+    "word_count": 621
+  },
+  {
+    "file": "dublin/garda-station-solicitor-ballymun.md",
+    "slug": "garda-station-solicitor-ballymun",
+    "page_type": "dublin-office",
+    "title": "Garda Station Solicitor Ballymun | Dublin 11",
+    "h1": "Garda station solicitors in Ballymun, Dublin 11",
+    "primary_keyword": "garda station solicitor ballymun",
+    "parent": "garda-station-solicitor-dublin",
+    "internal_links": [
+      "garda-station-solicitor-dublin",
+      "your-rights",
+      "legal-aid",
+      "arrested"
+    ],
+    "schema": "LegalService",
+    "hero_image": "georgian-door",
+    "word_count": 624
+  },
+  {
+    "file": "dublin/garda-station-solicitor-ormond-quay.md",
+    "slug": "garda-station-solicitor-ormond-quay",
+    "page_type": "dublin-office",
+    "title": "Garda Station Solicitor Ormond Quay | Dublin 7",
+    "h1": "Garda station solicitors at Ormond Quay, Dublin 7",
+    "primary_keyword": "garda station solicitor ormond quay",
+    "parent": "garda-station-solicitor-dublin",
+    "internal_links": [
+      "garda-station-solicitor-dublin",
+      "your-rights",
+      "legal-aid",
+      "criminal-courts-of-justice"
+    ],
+    "schema": "LegalService",
+    "hero_image": "georgian-door",
+    "word_count": 615
+  },
+  {
+    "file": "dublin/garda-station-solicitor-rialto.md",
+    "slug": "garda-station-solicitor-rialto",
+    "page_type": "dublin-office",
+    "title": "Garda Station Solicitor Rialto | Dublin 8",
+    "h1": "Garda station solicitors in Rialto, Dublin 8",
+    "primary_keyword": "garda station solicitor rialto",
+    "parent": "garda-station-solicitor-dublin",
+    "internal_links": [
+      "garda-station-solicitor-dublin",
+      "your-rights",
+      "legal-aid",
+      "arrested"
+    ],
+    "schema": "LegalService",
+    "hero_image": "georgian-door",
+    "word_count": 595
+  },
+  {
+    "file": "nationwide.md",
+    "slug": "nationwide",
+    "page_type": "core",
+    "title": "Garda Station Solicitors Nationwide | 24 Hour Advice",
+    "h1": "Garda station solicitors, nationwide",
+    "primary_keyword": "garda station solicitor ireland",
+    "parent": "index",
+    "internal_links": [
+      "your-rights",
+      "arrested",
+      "legal-aid",
+      "weekend-out-of-hours",
+      "contact"
+    ],
+    "schema": "WebPage",
+    "hero_image": "corridor",
+    "word_count": 552
+  },
+  {
+    "file": "offences/assault.md",
+    "slug": "assault",
+    "page_type": "offence",
+    "title": "Assault Charges | Solicitor Advice Before You Are Questioned",
+    "h1": "Assault",
+    "primary_keyword": "assault solicitor ireland",
+    "parent": "index",
+    "internal_links": [
+      "dublin-district-court",
+      "circuit-criminal-court",
+      "arrested",
+      "your-rights",
+      "public-order-offences",
+      "legal-aid"
+    ],
+    "schema": "LegalService",
+    "hero_image": "corridor",
+    "word_count": 799
+  },
+  {
+    "file": "offences/drugs-offences.md",
+    "slug": "drugs-offences",
+    "page_type": "offence",
+    "title": "Drugs Offences Solicitors | Possession, Sale and Supply",
+    "h1": "Drugs offences",
+    "primary_keyword": "drugs offence solicitor ireland",
+    "parent": "index",
+    "internal_links": [
+      "dublin-district-court",
+      "circuit-criminal-court",
+      "arrested",
+      "your-rights",
+      "voluntary-attendance",
+      "legal-aid"
+    ],
+    "schema": "LegalService",
+    "hero_image": "night-street",
+    "word_count": 800
+  },
+  {
+    "file": "offences/fraud-and-theft.md",
+    "slug": "fraud-and-theft",
+    "page_type": "offence",
+    "title": "Fraud and Theft Solicitors | Garda Station and Court",
+    "h1": "Fraud and theft",
+    "primary_keyword": "theft solicitor ireland",
+    "parent": "index",
+    "internal_links": [
+      "dublin-district-court",
+      "circuit-criminal-court",
+      "voluntary-attendance",
+      "arrested",
+      "your-rights",
+      "legal-aid"
+    ],
+    "schema": "LegalService",
+    "hero_image": "law-library",
+    "word_count": 800
+  },
+  {
+    "file": "offences/murder-and-manslaughter.md",
+    "slug": "murder-and-manslaughter",
+    "page_type": "offence",
+    "title": "Murder and Manslaughter Solicitors | 24 Hour Advice",
+    "h1": "Murder and manslaughter",
+    "primary_keyword": "murder solicitor ireland",
+    "parent": "index",
+    "internal_links": [
+      "central-criminal-court",
+      "criminal-courts-of-justice",
+      "arrested",
+      "your-rights",
+      "family-member-arrested",
+      "legal-aid"
+    ],
+    "schema": "LegalService",
+    "hero_image": "courts",
+    "word_count": 800
+  },
+  {
+    "file": "offences/public-order-offences.md",
+    "slug": "public-order-offences",
+    "page_type": "offence",
+    "title": "Public Order Offences | Solicitor Advice, Day or Night",
+    "h1": "Public order offences",
+    "primary_keyword": "public order offence solicitor ireland",
+    "parent": "index",
+    "internal_links": [
+      "dublin-district-court",
+      "arrested",
+      "your-rights",
+      "weekend-out-of-hours",
+      "legal-aid",
+      "assault"
+    ],
+    "schema": "LegalService",
+    "hero_image": "night-street",
+    "word_count": 821
+  },
+  {
+    "file": "offences/road-traffic-offences.md",
+    "slug": "road-traffic-offences",
+    "page_type": "offence",
+    "title": "Road Traffic Offences | Drink Driving and Licence Advice",
+    "h1": "Road traffic offences",
+    "primary_keyword": "drink driving solicitor ireland",
+    "parent": "index",
+    "internal_links": [
+      "dublin-district-court",
+      "circuit-criminal-court",
+      "arrested",
+      "your-rights",
+      "weekend-out-of-hours",
+      "legal-aid"
+    ],
+    "schema": "LegalService",
+    "hero_image": "night-street",
+    "word_count": 797
+  },
+  {
+    "file": "offences/sexual-offences.md",
+    "slug": "sexual-offences",
+    "page_type": "offence",
+    "title": "Sexual Offence Allegations | Solicitor Advice, 24 Hours",
+    "h1": "Sexual offence allegations",
+    "primary_keyword": "sexual offence solicitor ireland",
+    "parent": "index",
+    "internal_links": [
+      "central-criminal-court",
+      "circuit-criminal-court",
+      "voluntary-attendance",
+      "arrested",
+      "your-rights",
+      "legal-aid"
+    ],
+    "schema": "LegalService",
+    "hero_image": "consultation-room",
+    "word_count": 830
+  },
+  {
+    "file": "offences/white-collar-crime.md",
+    "slug": "white-collar-crime",
+    "page_type": "offence",
+    "title": "White Collar Crime Solicitors | Corporate Investigations",
+    "h1": "White collar crime and corporate investigations",
+    "primary_keyword": "white collar crime solicitor ireland",
+    "parent": "index",
+    "internal_links": [
+      "circuit-criminal-court",
+      "dublin-district-court",
+      "voluntary-attendance",
+      "your-rights",
+      "tony-collier",
+      "contact"
+    ],
+    "schema": "LegalService",
+    "hero_image": "law-library",
+    "word_count": 813
+  }
+]
