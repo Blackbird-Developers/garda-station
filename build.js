@@ -1,4 +1,4 @@
-/**
+﻿/**
  * Garda Station Solicitors - static site generator.
  *
  * Content: garda-content/**.md (YAML frontmatter + markdown, per _HANDOFF.md §3).
@@ -187,6 +187,28 @@ function heroMediaStyle(heroImage) {
   return `background-image:image-set(url('/assets/img/${heroImage}.webp') type('image/webp'), url('/assets/img/${heroImage}.jpg') type('image/jpeg'))`;
 }
 
+// Task #123yxuagbe2: 29 of 54 pages declare night-street, which reads as
+// repetitive across the 26 county pages. The task allows "vary by province",
+// so county pages that declare night-street get a province-keyed variant
+// instead (frontmatter is untouched; this is presentation only).
+const PROVINCE = {
+  carlow: 'L', dublin: 'L', kildare: 'L', kilkenny: 'L', laois: 'L', longford: 'L',
+  louth: 'L', meath: 'L', offaly: 'L', westmeath: 'L', wexford: 'L', wicklow: 'L',
+  clare: 'M', cork: 'M', kerry: 'M', limerick: 'M', tipperary: 'M', waterford: 'M',
+  galway: 'C', leitrim: 'C', mayo: 'C', roscommon: 'C', sligo: 'C',
+  cavan: 'U', donegal: 'U', monaghan: 'U',
+};
+const PROVINCE_HERO = { L: 'night-street', M: 'corridor', C: 'georgian-door', U: 'hero-dublin-alt' };
+
+function effectiveHero(fm) {
+  if (fm.page_type === 'county' && fm.hero_image === 'night-street') {
+    const county = fm.slug.replace('garda-station-solicitor-', '');
+    const prov = PROVINCE[county];
+    if (prov) return PROVINCE_HERO[prov];
+  }
+  return fm.hero_image;
+}
+
 function jsonLd(page, chain) {
   const url = SITE.domain + urlFor(page.fm.slug);
   const graphs = [];
@@ -241,13 +263,15 @@ function jsonLd(page, chain) {
 }
 
 // Nav mirrors the prototype header, plus Nationwide (the county tier did not
-// exist when the prototype's 10 pages were built).
+// exist when the prototype's 10 pages were built) and the Children's Court
+// (task #123yxuagbe3: "Give it prominence in navigation" - the one completely
+// uncontested gap in the keyword map).
 const NAV = [
   ['index', 'Home'],
   ['your-rights', 'Your rights'],
   ['arrested', "If you're arrested"],
-  ['voluntary-attendance', 'Voluntary attendance'],
   ['legal-aid', 'Legal aid'],
+  ['childrens-court', "Children's Court"],
   ['nationwide', 'Nationwide'],
   ['tony-collier', 'Our team'],
   ['contact', 'Contact'],
@@ -261,6 +285,7 @@ function renderPage(page, bySlug) {
   const [b3, faqHtml] = extractFaqs(b2);
   const contentHtml = postProcess(marked.parse(b3));
   const isHome = page.fm.slug === 'index';
+  const hero = effectiveHero(page.fm);
   const robots = STAGING
     ? '<meta name="robots" content="noindex, nofollow">'
     : '<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1">';
@@ -278,9 +303,9 @@ ${robots}
 <meta property="og:title" content="${escapeHtml(page.fm.title)}">
 <meta property="og:description" content="${escapeHtml(page.fm.meta_description)}">
 <meta property="og:locale" content="en_IE">
-<meta property="og:image" content="/assets/img/${page.fm.hero_image}.jpg">
+<meta property="og:image" content="/assets/img/${hero}.jpg">
 <meta name="theme-color" content="#0a1a2b">
-<link rel="preload" as="image" href="/assets/img/${page.fm.hero_image}.webp">
+<link rel="preload" as="image" href="/assets/img/${hero}.webp">
 <link rel="stylesheet" href="/assets/styles.css">
 ${jsonLd(page, chain)}
 </head>
@@ -308,7 +333,7 @@ ${jsonLd(page, chain)}
   </div>
 </header>
 <section class="hero${isHome ? '' : ' hero-compact'}">
-  <div class="hero-media" style="${heroMediaStyle(page.fm.hero_image)}"></div>
+  <div class="hero-media" style="${heroMediaStyle(hero)}"></div>
   <div class="wrap">
     <h1>${inlineMd(page.fm.h1)}</h1>
     <p class="lede">${postProcess(inlineMd(lede))}</p>
