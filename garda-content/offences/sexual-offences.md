@@ -66,7 +66,7 @@ There are protections around identification in certain cases before the courts, 
 
 ## How we act in these cases
 
-Our criminal defence team advises at Garda stations at any hour and appears in the Circuit Criminal and Central Criminal Courts. Ferrys Solicitors LLP has practised since 1989, with six criminal defence solicitors across five Dublin offices, so a call late at night reaches a solicitor on the rota. Ring 087 122 3080.
+Our criminal defence team advises at Garda stations at any hour and appears in the Circuit Criminal and Central Criminal Courts. Ferrys Solicitors LLP has practised since 1989, with six criminal defence solicitors across five Dublin offices, so a call late at night reaches a solicitor on the rota. Sexual offences are among the areas Tony Collier, Partner, practises in, and he appears in the Central Criminal Court, where the most serious of these charges are tried. Ring 087 122 3080.
 
 ## Common questions
 

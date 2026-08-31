@@ -73,7 +73,7 @@ Ferrys Solicitors LLP has been practising since 1989. Our criminal defence team 
 
 That matters more than it sounds. Cover provided by one person depends on whether that person happens to be free, awake and within reach. Ours is a rota between six practitioners, which is how one solicitor can attend a station on a Saturday night while another is already at a different one. Arrests do not queue politely.
 
-Tony Collier leads the team as Partner. He is a member of the Law Society of Ireland Education Faculty and of the DSBA Criminal Law Committee, and he appears in the District, Circuit Criminal, Central Criminal and Special Criminal Courts. Read more about [Tony and the team](/tony-collier).
+The team is led by **Tony Collier**, Partner, whose practice, professional roles and writing are set out further down this page and in full on [Tony Collier's page](/tony-collier).
 
 ## What happens when you call
 

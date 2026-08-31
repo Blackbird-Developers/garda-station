@@ -63,6 +63,8 @@ Every `.md` file starts with this block. It is valid YAML and is your build cont
 | `schema` | `LegalService` (48) \| `WebPage` (5) \| `Attorney` (1) |
 | `hero_image` | One of seven available images. See section 5.3. |
 | `legal_review_required` | Always `true`. Do not publish while true. |
+| `reviewed_by` | *Optional.* Set to `tony-collier` once he has actually reviewed the page. Upgrades the byline from "led by" to "Reviewed by" and emits schema.org `reviewedBy`. Leave unset until true. |
+| `reviewed_date` | *Optional.* ISO date, e.g. `2026-09-04`. Only read when `reviewed_by` is set; also emits `dateModified`. |
 | `notes` | **Read these.** Flags for the reviewing solicitor and for you. |
 
 ### Body conventions
@@ -127,7 +129,55 @@ Seven images in `../garda-station-site/assets/img/`, each as `.webp` and `.jpg`:
 
 Each page's `hero_image` names one. They are AI-generated environmental shots, deliberately containing **no people**. Distribution is uneven by design (29 pages use `night-street`), so consider generating two or three more environmental variants to reduce repetition across the 26 county pages.
 
-**Critical:** the prototype has a visible placeholder reading *"Replace with a real photograph of Tony Collier"* on the homepage and his profile. **A real photograph is required.** Never substitute an AI-generated person on a law firm site.
+**Resolved.** A real photograph of Tony Collier is now in place, supplied by the client and cropped to two derivatives:
+
+`tony-collier` (600x800, 3:4) for the `.authority-photo` block · `tony-collier-avatar` (200x200) for the per-page byline
+
+Both ship as `.webp` and `.jpg`. The prototype's *"Replace with a real photograph of Tony Collier"* placeholder is gone. The standing rule still applies: never substitute an AI-generated person on a law firm site. A photograph of the wider team is still outstanding.
+
+### 5.4 Tony Collier as the named lead
+
+`_BRIEF.md` s1 names Tony as the lead for this property, but the first static build
+surfaced him only in body copy: no photograph anywhere, and 41 of 55 pages did not
+mention him at all. The `.authority`, `.authority-photo` and `.creds` rules had been
+sitting unused in `styles.css` since the prototype. Two components now use them.
+
+**`bylineHtml()`** renders a compact strip (avatar, name, role, two memberships) at the
+top of every page's prose, above the urgent callout. It is deliberately quiet: muted
+type and a hairline rule, never a filled card, because nothing on this site should
+compete with the emergency callout.
+
+**`authorityHtml()`** renders the full photo-and-credentials block. It appears twice:
+on the homepage as its own `section.alt` after the main prose, and at the top of his
+own page in place of the byline.
+
+Wording is limited to what is true at build time. The byline says Tony *leads* the
+practice; it does not claim he reviewed the page. See `reviewed_by` in section 3 for
+the upgrade path.
+
+Two claims on his live firm profile are deliberately not reproduced anywhere, because
+`_BRIEF.md` s4.1 bars comparative and superlative claims: *"one of Ireland's most
+experienced criminal defence solicitors"* and *"defending some of the biggest cases in
+the history of the Irish State"*. Note that both still appear in the legacy prototype
+HTML under `garda-station-site/`, which is not the build output but is checked in.
+
+In JSON-LD he is one `Person`/`Attorney` node with a stable `@id`, repeated on all 55
+pages so the entity consolidates. `LegalService` pages reference him as `employee`;
+`WebPage` pages as `about`.
+
+**Word counts.** Naming him on the four offence pages that match his stated practice
+areas pushed those pages past the `_BRIEF.md` s6.2 bands, as did the expanded detail on
+his own page. Trim on review if you would rather hold the bands; the additions are
+substantive rather than padding, so they were not cut pre-emptively.
+
+| Page | Before | After | Band |
+|---|---|---|---|
+| `tony-collier` | 1056 | 1206 | 700 to 1100 |
+| `road-traffic-offences` | 797 | 874 | 550 to 800 |
+| `sexual-offences` | 830 | 858 | 550 to 800 (already over) |
+| `fraud-and-theft` | 800 | 830 | 550 to 800 |
+| `drugs-offences` | 800 | 829 | 550 to 800 |
+| `index` | 1134 | 1115 | 700 to 1100 (was already over; de-duplication reduced it) |
 
 ---
 
@@ -169,7 +219,9 @@ These are not optional.
 - [ ] **Legal accuracy review** of all 54 pages by a Ferrys solicitor. Every file has `legal_review_required: true` and most carry specific queries in `notes`.
 - [ ] **Verify the Garda station and courthouse lists.** Writers named only stations and courts they were confident existed and flagged the rest, but **every list needs checking against the current Courts Service and Garda listings.** Highest risk: Donegal (nine venues), Mayo, Cork county, Kerry peninsulas. District Court district numbers were deliberately omitted throughout.
 - [ ] **Confirm the out-of-hours rota is genuinely staffed.** The site's central claim is a real 24/7 rota. Do not advertise cover that is not resourced.
-- [ ] **Real photograph of Tony Collier**, and ideally the wider team.
+- [x] **Real photograph of Tony Collier.** Done. A photograph of the wider team is still outstanding.
+- [ ] **Tony's LinkedIn URL** for `sameAs` in his Person schema. His firm profile links to it but the URL was not supplied, so it has not been guessed. See the TODO in `tonyNode()` in `build.js`.
+- [ ] **Decide whether he personally reviews pages.** If he does, set `reviewed_by: tony-collier` in that page's frontmatter (see section 3). Until then the byline makes no review claim.
 - [ ] **Domain decision**, then update all canonicals.
 - [ ] **Confirm ownership of `tonycolliersolicitor.ie`** (it exists but returns empty).
 - [ ] **Conversion tracking live** before launch.

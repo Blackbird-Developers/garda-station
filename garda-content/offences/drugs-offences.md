@@ -61,7 +61,7 @@ Then there is employment and vetting. Garda vetting matters for anyone working w
 
 ## How we act in drugs cases
 
-Our criminal defence team advises at Garda stations at any hour and appears in the District and Circuit Criminal Courts. Ferrys Solicitors LLP has practised since 1989, with six criminal defence solicitors across five Dublin offices, so a call at three in the morning reaches a solicitor on call. Ring 087 122 3080.
+Our criminal defence team advises at Garda stations at any hour and appears in the District and Circuit Criminal Courts. Ferrys Solicitors LLP has practised since 1989, with six criminal defence solicitors across five Dublin offices, so a call at three in the morning reaches a solicitor on call. Tony Collier, Partner, leads the team, and drink and drug driving, which often arrives alongside a drugs charge after a roadside stop, is among the areas he practises in. Ring 087 122 3080.
 
 ## Common questions
 

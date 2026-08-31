@@ -21,7 +21,7 @@ internal_links:
 schema: Attorney
 hero_image: law-library
 legal_review_required: true
-notes: "Credentials are limited strictly to those supplied in the brief: Partner, Law Society of Ireland Education Faculty member, DSBA Criminal Law Committee member, and appearances in the District, Circuit Criminal, Central Criminal and Special Criminal Courts. No case outcomes, client names, awards, directory rankings or years of call have been invented. The practice areas listed are general categories of criminal defence work and should be confirmed or amended by the reviewing solicitor. Individual profiles for the other five solicitors were not supplied and are described only by name and role."
+notes: "Credentials are drawn from _BRIEF.md s2 and from the firm's own profile page at https://ferrysolicitors.com/our_team/tony-collier/ (year joined, prior practice, Ormond Quay base, practice areas, Law Society Gazette writing). Two claims on that live profile are deliberately NOT reproduced here or anywhere on this site, because they are comparative/superlative and barred by _BRIEF.md s4.1: 'one of Ireland's most experienced criminal defence solicitors' and 'defending some of the biggest cases in the history of the Irish State'. Please confirm the practice area list is current. Original note follows. Credentials are limited strictly to those supplied in the brief: Partner, Law Society of Ireland Education Faculty member, DSBA Criminal Law Committee member, and appearances in the District, Circuit Criminal, Central Criminal and Special Criminal Courts. No case outcomes, client names, awards, directory rankings or years of call have been invented. The practice areas listed are general categories of criminal defence work and should be confirmed or amended by the reviewing solicitor. Individual profiles for the other five solicitors were not supplied and are described only by name and role."
 ---
 
 When you ring a 24 hour number at two in the morning, it is fair to want to know who is on the other end of it. This page sets out who does this work at Ferrys Solicitors LLP.
@@ -31,19 +31,38 @@ If you need advice now rather than a biography, ring 087 122 3080.
 > **If the Gardai are waiting**
 > Say you want legal advice before any interview and that you are nominating Ferrys Solicitors as your solicitors. Then ring 087 122 3080.
 
-## Tony Collier, Partner
+## Background and professional roles
 
-Tony Collier is a Partner at Ferrys Solicitors LLP and leads the firm's criminal defence practice.
+Tony joined Ferrys Solicitors LLP in 2020, having previously run his own criminal practice in Dublin. He is based at the firm's Ormond Quay office.
 
-He is a member of the **Law Society of Ireland Education Faculty**, which means he is involved in the training of solicitors, and a member of the **DSBA Criminal Law Committee**, the Dublin Solicitors Bar Association committee concerned with criminal practice. Between them, those two roles say something specific about the work: this is an area he teaches and contributes to professionally, not only one he practises in.
+He is a member of the **Law Society of Ireland Education Faculty**, which means he is involved in the training of solicitors, and a member of the **Criminal Law Committee of the Dublin Solicitors Bar Association**. Between them, those two roles say something specific about the work: this is an area he teaches and contributes to professionally, not only one he practises in.
 
-He appears in the **District Court**, the **Circuit Criminal Court**, the **Central Criminal Court** and the **Special Criminal Court**.
+He writes on criminal justice for the **Law Society Gazette**, on subjects including criminal legal aid, prison remission, extradition and civil restraining orders, and he has commented on criminal justice matters in the national press.
+
+## The courts he appears in
+
+He appears in the **District Court**, the **Circuit Criminal Court**, the **Central Criminal Court** and the **Special Criminal Court**, including in the Criminal Courts of Justice in Dublin.
 
 That spread matters more than it might look on a page. Criminal cases do not stay where they start. A matter that begins as a charge sheet in a District Court on a Monday morning can be sent forward for trial, and the person facing it should not have to change solicitor because the case has outgrown the person representing them. Continuity from the cell to the trial court is the point.
 
+## The work Tony takes on
+
+The areas Tony practises in are:
+
+- **Criminal offences generally**, from summary matters in the District Court through to trials on indictment.
+- **Road traffic law**, including drink driving and drug driving.
+- **Sexual offences.**
+- **Murder and manslaughter.**
+- **White collar crime**, including financial and banking investigations.
+- **Revenue, tax and regulatory offences.**
+- **Criminal Assets Bureau** matters.
+- **Professional misconduct.**
+- **Judicial review and constitutional law.**
+- **Warrants and extradition.**
+
 ## What the team does
 
-The criminal defence work at Ferrys covers the whole life of a case, and it starts long before a courtroom is involved.
+Those are categories of offence. The list below is the other way of cutting it, by stage: the criminal defence work at Ferrys covers the whole life of a case, and it starts long before a courtroom is involved.
 
 - **Garda station attendance and advice**, at any hour, including advice before and during interview.
 - **Voluntary attendances**, where a person has been asked to come in and needs to know what that means before agreeing to a time.

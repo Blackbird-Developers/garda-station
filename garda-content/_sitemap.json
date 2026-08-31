@@ -76,7 +76,7 @@
     ],
     "schema": "LegalService",
     "hero_image": "hero-dublin",
-    "word_count": 1134
+    "word_count": 1115
   },
   {
     "file": "core/legal-aid.md",
@@ -114,7 +114,7 @@
     ],
     "schema": "Attorney",
     "hero_image": "law-library",
-    "word_count": 1056
+    "word_count": 1206
   },
   {
     "file": "core/voluntary-attendance.md",
@@ -899,7 +899,7 @@
     ],
     "schema": "LegalService",
     "hero_image": "night-street",
-    "word_count": 800
+    "word_count": 829
   },
   {
     "file": "offences/fraud-and-theft.md",
@@ -919,7 +919,7 @@
     ],
     "schema": "LegalService",
     "hero_image": "law-library",
-    "word_count": 800
+    "word_count": 830
   },
   {
     "file": "offences/murder-and-manslaughter.md",
@@ -979,7 +979,7 @@
     ],
     "schema": "LegalService",
     "hero_image": "night-street",
-    "word_count": 797
+    "word_count": 874
   },
   {
     "file": "offences/sexual-offences.md",
@@ -999,7 +999,7 @@
     ],
     "schema": "LegalService",
     "hero_image": "consultation-room",
-    "word_count": 830
+    "word_count": 858
   },
   {
     "file": "offences/white-collar-crime.md",

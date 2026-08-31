@@ -61,6 +61,10 @@ These cases turn on procedure and detail, and much of what affects your licence 
 
 Our criminal defence team advises at Garda stations at any hour and appears in the District and Circuit Criminal Courts. Ferrys Solicitors LLP has practised since 1989, with six criminal defence solicitors across five Dublin offices, so a call from a station at four in the morning reaches a solicitor on the rota. Ring 087 122 3080.
 
+## How we act in road traffic cases
+
+Road traffic law, including drink driving and drug driving, is among the areas Tony Collier, Partner, practises in. Our criminal defence team advises at the station at any hour and appears in the District Court, where most of these prosecutions are heard. Ferrys Solicitors LLP has practised since 1989, with six criminal defence solicitors across five Dublin offices. Ring 087 122 3080, or (01) 677 9408 in office hours.
+
 ## Common questions
 
 ### I was released with no charge after a drug driving arrest. Is it finished?

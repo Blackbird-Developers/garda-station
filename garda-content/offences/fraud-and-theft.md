@@ -62,7 +62,7 @@ Visa applications and entry to the United States, Canada and Australia can also 
 
 ## How we act in these cases
 
-Our criminal defence team advises before voluntary interviews, attends Garda stations at any hour and appears in the District and Circuit Criminal Courts. Ferrys Solicitors LLP has practised since 1989, with six criminal defence solicitors across five Dublin offices. Ring 087 122 3080, or (01) 677 9408 in office hours.
+Our criminal defence team advises before voluntary interviews, attends Garda stations at any hour and appears in the District and Circuit Criminal Courts. Ferrys Solicitors LLP has practised since 1989, with six criminal defence solicitors across five Dublin offices. White collar crime and financial and banking investigations are among the areas Tony Collier, Partner, practises in, which matters once an allegation of this kind grows beyond a single incident. Ring 087 122 3080, or (01) 677 9408 in office hours.
 
 ## Common questions
 

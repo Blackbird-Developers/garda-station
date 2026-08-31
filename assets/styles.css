@@ -241,6 +241,38 @@ section.green .right-item p { color: #c3d4c9; }
 .creds li { padding: 11px 0 11px 26px; position: relative; border-bottom: 1px solid var(--line); font-size: 16px; }
 .creds li:last-child { border-bottom: 0; }
 .creds li::before { content: ""; position: absolute; left: 2px; top: 20px; width: 10px; height: 1px; background: var(--brass); }
+/* Single-column (below the 860px grid switch) the 3/4 portrait would other-
+   wise fill the whole viewport and push every word below the fold, which on a
+   site built for someone frightened and on a phone is the wrong trade. */
+@media (max-width: 859px) {
+  .authority-photo { max-width: 232px; }
+}
+.authority-name { margin-top: 0; font-size: 26px; }
+.authority-cta { margin-top: 26px; }
+
+/* ---------- Byline ----------
+   Quiet attribution strip at the top of every page. It must never compete
+   with the urgent callout directly beneath it, hence muted colour, small
+   type and a hairline rule rather than a filled card. */
+.byline {
+  display: flex; align-items: center; gap: 14px;
+  margin: 0 0 30px; padding-bottom: 18px;
+  border-bottom: 1px solid var(--line);
+}
+.byline-avatar {
+  flex: 0 0 46px; width: 46px; height: 46px; border-radius: 50%;
+  background-size: cover; background-position: center top;
+  border: 1px solid var(--line);
+}
+.byline p {
+  margin: 0; font-size: 14.5px; line-height: 1.55; color: var(--muted);
+}
+.byline a { color: var(--body); text-decoration: none; border-bottom: 1px solid var(--brass); }
+.byline a:hover { color: var(--ink); }
+@media (max-width: 560px) {
+  .byline { gap: 12px; }
+  .byline p { font-size: 13.5px; }
+}
 
 /* ---------- Stats ---------- */
 .stats { display: grid; grid-template-columns: repeat(auto-fit, minmax(160px, 1fr)); gap: 26px; text-align: center; }
