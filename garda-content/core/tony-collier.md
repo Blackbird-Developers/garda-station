@@ -20,6 +20,12 @@ internal_links:
   - contact
 schema: Attorney
 hero_image: law-library
+hook: "Wondering who will actually turn up?"
+hook_answer: >-
+  Out of hours attendances are covered on a rota of six criminal defence solicitors, so the
+  person who reaches your station may be a colleague rather than Tony himself. Ask when you
+  ring and we will tell you plainly who is dealing with your matter. Every one of them
+  practises in this area.
 legal_review_required: true
 notes: "Credentials are drawn from _BRIEF.md s2 and from the firm's own profile page at https://ferrysolicitors.com/our_team/tony-collier/ (year joined, prior practice, Ormond Quay base, practice areas, Law Society Gazette writing). Two claims on that live profile are deliberately NOT reproduced here or anywhere on this site, because they are comparative/superlative and barred by _BRIEF.md s4.1: 'one of Ireland's most experienced criminal defence solicitors' and 'defending some of the biggest cases in the history of the Irish State'. Please confirm the practice area list is current. Original note follows. Credentials are limited strictly to those supplied in the brief: Partner, Law Society of Ireland Education Faculty member, DSBA Criminal Law Committee member, and appearances in the District, Circuit Criminal, Central Criminal and Special Criminal Courts. No case outcomes, client names, awards, directory rankings or years of call have been invented. The practice areas listed are general categories of criminal defence work and should be confirmed or amended by the reviewing solicitor. Individual profiles for the other five solicitors were not supplied and are described only by name and role."
 ---

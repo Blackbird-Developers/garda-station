@@ -106,7 +106,12 @@ function parsePage(file) {
   }
   body = body.slice(0, cut).trim();
 
-  return { file, fm, body, wordCount: body.split(/\s+/).length };
+  // The hook is user-facing page copy that happens to live in frontmatter, so
+  // it counts. Without this the CSV under-reports by ~50 words on every hooked
+  // page, and that CSV is what the reviewing solicitor checks the _BRIEF.md
+  // s6.2 bands against.
+  const counted = [body, fm.hook || '', fm.hook_answer || ''].join(' ');
+  return { file, fm, body, wordCount: counted.split(/\s+/).filter(Boolean).length };
 }
 
 /* ------------------------------------------------------------- transforms */
@@ -167,6 +172,27 @@ function postProcess(html) {
   html = html.replace(/(?<!>)087 122 3080(?![^<]*<\/a>)/g,
     `<a href="${SITE.tel24Href}" data-cta="call"><strong>087 122 3080</strong></a>`);
   return html;
+}
+
+/* Situational hook: a short question naming the reader's state, answered at
+ * once, sitting between the urgent callout and the first content section.
+ *
+ * Optional. Pages with no `hook` render exactly as they did before. The h2 is
+ * emitted bare rather than wrapped, so every existing .prose descendant rule
+ * applies to it unchanged.
+ *
+ * The question must name something true about THIS page. A single templated
+ * question repeated across a tier would reproduce the boilerplate problem in
+ * _BRIEF.md s5, which is the whole reason the competitor's county tier fails.
+ */
+function hookHtml(fm) {
+  if (!fm.hook) return '';
+  const q = `<h2 class="hook-q">${inlineMd(String(fm.hook))}</h2>`;
+  if (!fm.hook_answer) return q;
+  const a = postProcess(marked.parse(String(fm.hook_answer).trim()))
+    .replace('<p>', '<p class="hook-a">');
+  return `${q}
+${a}`;
 }
 
 function urgentBoxHtml(calloutMd) {
@@ -491,6 +517,7 @@ ${authorityHtml({
   <div class="wrap prose">
 ${isTony ? '' : bylineHtml(page.fm)}
 ${urgentBoxHtml(calloutMd)}
+${hookHtml(page.fm)}
 ${contentHtml}
 ${faqHtml}
   </div>

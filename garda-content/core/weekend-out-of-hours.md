@@ -20,6 +20,10 @@ internal_links:
   - contact
 schema: LegalService
 hero_image: night-street
+hook: "Is it the middle of the night?"
+hook_answer: >-
+  Ring 087 122 3080. Outside office hours it is answered by one of six criminal defence
+  solicitors on a rota, not by an answering service taking a message for Monday.
 legal_review_required: true
 notes: "The rota claim is central to this page and is made without any reference to, or comparison with, another firm or practitioner. Weekend and special court sittings are described generally because listing arrangements vary; reviewing solicitor may wish to confirm the description of special sittings."
 ---

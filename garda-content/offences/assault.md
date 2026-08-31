@@ -21,6 +21,11 @@ internal_links:
   - legal-aid
 schema: LegalService
 hero_image: corridor
+hook: "Arrested after a fight?"
+hook_answer: >-
+  Most assault allegations turn on who did what first and on what was reasonable in the
+  moment, and the account you give at the station is the one you will be held to months later.
+  Do not try to explain the incident before you have taken advice. Ring 087 122 3080.
 legal_review_required: true
 notes: "Describes the assault ladder in ordinary language only, with no Act name, section numbers, injury definitions or penalties. Self defence is referred to as an issue requiring advice rather than explained as a legal test. Domestic incidents are covered neutrally, with civil orders and child protection processes mentioned only as parallel matters. No outcome is suggested."
 ---

@@ -63,6 +63,8 @@ Every `.md` file starts with this block. It is valid YAML and is your build cont
 | `schema` | `LegalService` (48) \| `WebPage` (5) \| `Attorney` (1) |
 | `hero_image` | One of seven available images. See section 5.3. |
 | `legal_review_required` | Always `true`. Do not publish while true. |
+| `hook` | *Optional.* A short question naming the reader's situation, rendered as the first `h2`, between the urgent callout and the first content section. |
+| `hook_answer` | *Optional.* Two or three sentences answering it. Markdown allowed; `087 122 3080` is auto-linked. Ignored unless `hook` is set. |
 | `reviewed_by` | *Optional.* Set to `tony-collier` once he has actually reviewed the page. Upgrades the byline from "led by" to "Reviewed by" and emits schema.org `reviewedBy`. Leave unset until true. |
 | `reviewed_date` | *Optional.* ISO date, e.g. `2026-09-04`. Only read when `reviewed_by` is set; also emits `dateModified`. |
 | `notes` | **Read these.** Flags for the reviewing solicitor and for you. |
@@ -178,6 +180,35 @@ substantive rather than padding, so they were not cut pre-emptively.
 | `fraud-and-theft` | 800 | 830 | 550 to 800 |
 | `drugs-offences` | 800 | 829 | 550 to 800 |
 | `index` | 1134 | 1115 | 700 to 1100 (was already over; de-duplication reduced it) |
+
+### 5.5 The situational hook
+
+Borrowed, deliberately, from the one thing the competing site does well. Their pages
+open with a short question naming the reader's exact state ("Arrested at the weekend?")
+answered on the very next line, in slot 2 of 9. Ours put every question in a
+`Common questions` block at the bottom, slot 6 of 7. We publish 225 questions to their
+seven and still lose the position that decides whether a frightened person believes the
+page is about them.
+
+`hookHtml()` closes that gap: an `h2` plus a short answer, after the urgent callout and
+before the first content section. The callout stays first, because nothing outranks
+telling someone what to do right now.
+
+**Written so far: the 10 core and 8 offence pages.** The 26 county, 6 court and 5
+Dublin office pages have no `hook` yet and render unchanged until they get one.
+
+**The rule that matters when writing the rest.** Each hook must name something true
+about that page: the county, the court, the offence, the hour. The competitor's county
+tier fails precisely because nine headings are seven repeated blocks, and one templated
+question rolled across 26 county pages would import that failure wholesale. The county
+tier is the hardest of the three remaining and should not be done quickly.
+
+**None of the competitive analysis behind this may surface on the site.** `_BRIEF.md`
+s4.1 bars naming, referencing or alluding to a competing firm anywhere. The hooks read
+as our own copy or they do not ship.
+
+Note that `wordCount` counts `hook` and `hook_answer`, since both are user-facing page
+copy; the s6.2 bands in `_page-index.csv` therefore include them.
 
 ---
 

@@ -15,6 +15,12 @@ internal_links:
   - contact
 schema: WebPage
 hero_image: corridor
+hook: "Outside Dublin and unsure whether we can reach you?"
+hook_answer: >-
+  Our offices are in Dublin. We act for clients around the country and will travel for serious
+  matters, but distance is real and we will not pretend otherwise. Ring 087 122 3080 and we
+  will tell you honestly whether we can attend in time, and help you find someone local if we
+  cannot.
 legal_review_required: true
 notes: "County hub page written by the build team to the same brief as the 26 county pages; requires Gate 2 review like everything else. County list verified against the 26 county files: Leinster 12, Munster 6, Connacht 5, Ulster 3. The travel framing follows brief section 4.3: no local presence implied anywhere outside Dublin."
 ---

@@ -20,6 +20,11 @@ internal_links:
   - contact
 schema: WebPage
 hero_image: law-library
+hook: "Not sure what you are allowed to ask for?"
+hook_answer: >-
+  Everything on this page is an entitlement rather than a favour. The three that matter most
+  in the first hour are a solicitor of your own choosing, advice before questioning, and the
+  right to silence. Ring 087 122 3080 and ask for all three.
 legal_review_required: true
 notes: "Right to silence is described in general terms with the inference point flagged but not specified, per brief 4.2. No section numbers, Act names, custody regulation citations or hour limits are used. Reviewing solicitor may wish to confirm the phrasing on solicitor presence during interview reflects current practice."
 ---

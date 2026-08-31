@@ -21,6 +21,11 @@ internal_links:
   - legal-aid
 schema: LegalService
 hero_image: night-street
+hook: "Arrested or asked in over drugs?"
+hook_answer: >-
+  At this stage what matters is the quantity, where it was found and what the Gardai say you
+  intended to do with it, because those are the things that separate a possession charge from
+  a supply one. That is not a distinction to argue alone in an interview. Ring 087 122 3080.
 legal_review_required: true
 notes: "Deliberately avoids naming the governing legislation, section numbers, quantity or value thresholds and the statutory presumption relating to value. Search powers, the analysis process and the role of the Director of Public Prosecutions in directing where a case is heard are described generally. No named festival or event is referenced. No outcome, penalty or diversion result is suggested."
 ---

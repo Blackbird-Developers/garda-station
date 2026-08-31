@@ -250,6 +250,12 @@ section.green .right-item p { color: #c3d4c9; }
 .authority-name { margin-top: 0; font-size: 26px; }
 .authority-cta { margin-top: 26px; }
 
+/* ---------- Situational hook ----------
+   Deliberately close to a normal h2. The hook earns attention from its
+   position and its wording, not from a box around it, and boxing it would put
+   a second competing panel directly under the urgent callout. */
+.hook-a { font-size: 18.5px; line-height: 1.6; color: var(--ink); }
+
 /* ---------- Byline ----------
    Quiet attribution strip at the top of every page. It must never compete
    with the urgent callout directly beneath it, hence muted colour, small

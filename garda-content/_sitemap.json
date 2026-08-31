@@ -16,7 +16,7 @@
     ],
     "schema": "WebPage",
     "hero_image": "corridor",
-    "word_count": 1128
+    "word_count": 1174
   },
   {
     "file": "core/contact.md",
@@ -35,7 +35,7 @@
     ],
     "schema": "LegalService",
     "hero_image": "georgian-door",
-    "word_count": 887
+    "word_count": 931
   },
   {
     "file": "core/family-member-arrested.md",
@@ -54,7 +54,7 @@
     ],
     "schema": "WebPage",
     "hero_image": "consultation-room",
-    "word_count": 1132
+    "word_count": 1181
   },
   {
     "file": "core/index.md",
@@ -76,7 +76,7 @@
     ],
     "schema": "LegalService",
     "hero_image": "hero-dublin",
-    "word_count": 1115
+    "word_count": 1173
   },
   {
     "file": "core/legal-aid.md",
@@ -95,7 +95,7 @@
     ],
     "schema": "WebPage",
     "hero_image": "consultation-room",
-    "word_count": 1122
+    "word_count": 1180
   },
   {
     "file": "core/tony-collier.md",
@@ -114,7 +114,7 @@
     ],
     "schema": "Attorney",
     "hero_image": "law-library",
-    "word_count": 1206
+    "word_count": 1265
   },
   {
     "file": "core/voluntary-attendance.md",
@@ -133,7 +133,7 @@
     ],
     "schema": "WebPage",
     "hero_image": "georgian-door",
-    "word_count": 1130
+    "word_count": 1179
   },
   {
     "file": "core/weekend-out-of-hours.md",
@@ -152,7 +152,7 @@
     ],
     "schema": "LegalService",
     "hero_image": "night-street",
-    "word_count": 1123
+    "word_count": 1160
   },
   {
     "file": "core/your-rights.md",
@@ -171,7 +171,7 @@
     ],
     "schema": "WebPage",
     "hero_image": "law-library",
-    "word_count": 1121
+    "word_count": 1174
   },
   {
     "file": "counties/garda-station-solicitor-carlow.md",
@@ -859,7 +859,7 @@
     ],
     "schema": "WebPage",
     "hero_image": "corridor",
-    "word_count": 552
+    "word_count": 614
   },
   {
     "file": "offences/assault.md",
@@ -879,7 +879,7 @@
     ],
     "schema": "LegalService",
     "hero_image": "corridor",
-    "word_count": 799
+    "word_count": 854
   },
   {
     "file": "offences/drugs-offences.md",
@@ -899,7 +899,7 @@
     ],
     "schema": "LegalService",
     "hero_image": "night-street",
-    "word_count": 829
+    "word_count": 887
   },
   {
     "file": "offences/fraud-and-theft.md",
@@ -919,7 +919,7 @@
     ],
     "schema": "LegalService",
     "hero_image": "law-library",
-    "word_count": 830
+    "word_count": 884
   },
   {
     "file": "offences/murder-and-manslaughter.md",
@@ -939,7 +939,7 @@
     ],
     "schema": "LegalService",
     "hero_image": "courts",
-    "word_count": 800
+    "word_count": 849
   },
   {
     "file": "offences/public-order-offences.md",
@@ -959,7 +959,7 @@
     ],
     "schema": "LegalService",
     "hero_image": "night-street",
-    "word_count": 821
+    "word_count": 873
   },
   {
     "file": "offences/road-traffic-offences.md",
@@ -979,7 +979,7 @@
     ],
     "schema": "LegalService",
     "hero_image": "night-street",
-    "word_count": 874
+    "word_count": 922
   },
   {
     "file": "offences/sexual-offences.md",
@@ -999,7 +999,7 @@
     ],
     "schema": "LegalService",
     "hero_image": "consultation-room",
-    "word_count": 858
+    "word_count": 902
   },
   {
     "file": "offences/white-collar-crime.md",
@@ -1019,6 +1019,6 @@
     ],
     "schema": "LegalService",
     "hero_image": "law-library",
-    "word_count": 813
+    "word_count": 867
   }
 ]

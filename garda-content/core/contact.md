@@ -20,6 +20,11 @@ internal_links:
   - legal-aid
 schema: LegalService
 hero_image: georgian-door
+hook: "Is this urgent, or are you making a plan?"
+hook_answer: >-
+  For anything happening now, ring 087 122 3080 at any hour. For an appointment or a question
+  that can wait until morning, ring (01) 677 9408 in office hours, or use the office details
+  below.
 legal_review_required: true
 notes: "All five office addresses and numbers are taken directly from the brief and must not be altered. No additional locations are listed. Office opening hours are described generally because exact hours were not supplied; developer or reviewing solicitor should confirm and insert them if wanted."
 ---

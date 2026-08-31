@@ -21,6 +21,11 @@ internal_links:
   - legal-aid
 schema: LegalService
 hero_image: night-street
+hook: "Stopped, breathalysed, or facing a driving ban?"
+hook_answer: >-
+  Road traffic prosecutions turn on procedure to an unusual degree: how the stop was made, how
+  a sample was taken, what you were told and when. Those details are worth having checked
+  before you plead to anything. Ring 087 122 3080.
 legal_review_required: true
 notes: "Station procedure for specimens is described in general terms only. No Act name, section numbers, alcohol concentration levels, observation periods, disqualification periods or penalties are stated. The page notes that the specimen procedure operates to its own timing and that a solicitor may not always be able to attend before a specimen is required; please confirm that framing, and the reference to the choice of specimen where a doctor or nurse attends, before publication."
 ---

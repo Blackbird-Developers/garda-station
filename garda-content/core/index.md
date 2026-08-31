@@ -23,6 +23,12 @@ internal_links:
   - contact
 schema: LegalService
 hero_image: hero-dublin
+hook: "Arrested, or asked to come in?"
+hook_answer: >-
+  Those are two different positions and they carry different risks, but the first step is the
+  same in both. Get legal advice before you answer questions. If you have been arrested, [what
+  happens after arrest](/arrested) sets out the stages. If you have been asked to attend
+  voluntarily, start with [being asked in](/voluntary-attendance).
 legal_review_required: true
 notes: "Homepage. Detention periods are described in general terms only, with no statutory citation and no hour limits, per brief section 4.2. The six-solicitor rota claim appears here and on weekend-out-of-hours; please confirm the rota description matches current internal arrangements before publication."
 ---

@@ -21,6 +21,11 @@ internal_links:
   - legal-aid
 schema: LegalService
 hero_image: consultation-room
+hook: "Contacted by Gardai about an allegation?"
+hook_answer: >-
+  Do not discuss it with anyone, including the complainant, family or friends, and do not
+  message about it. Contact of that kind can become a separate charge in itself. Ring 087 122
+  3080 before you respond to anything.
 legal_review_required: true
 notes: "Written to be sober and non-judgemental. It makes no comment of any kind about complainants, does not use the language of false allegation, and suggests no outcome. Statutory detail, sample-taking powers, time limits and registration requirements are kept general, with no Act names or section numbers. The page states that rape and aggravated sexual assault are tried in the Central Criminal Court and that other sexual offences may be dealt with in the Circuit Criminal Court or, in some instances, the District Court; please confirm that framing and the reference to anonymity protections before publication."
 ---

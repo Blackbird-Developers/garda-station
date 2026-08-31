@@ -21,6 +21,11 @@ internal_links:
   - legal-aid
 schema: LegalService
 hero_image: law-library
+hook: "Accused of taking something, or of dishonesty at work?"
+hook_answer: >-
+  Allegations of this kind usually arrive after documents have already been gathered, and
+  often after an internal process you took part in. What you said to an employer can end up in
+  the Garda file. Ring 087 122 3080 before you add anything to it.
 legal_review_required: true
 notes: "Covers dishonesty offences at individual and workplace level; corporate and regulatory investigations are dealt with on the white-collar-crime page to keep the two distinct. No Act names, section numbers, value thresholds or penalties are cited. The point about repayment or restitution before advice is framed as a risk to be discussed with a solicitor, with no suggestion that it produces any particular result."
 ---

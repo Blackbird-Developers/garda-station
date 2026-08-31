@@ -21,6 +21,11 @@ internal_links:
   - contact
 schema: LegalService
 hero_image: law-library
+hook: "Asked to attend a regulatory or internal interview?"
+hook_answer: >-
+  Interviews of this kind can run alongside a criminal investigation, and what you say in one
+  can reach the other. Being treated as a witness at the outset does not mean you will stay
+  one. Ring 087 122 3080, or (01) 677 9408 in office hours.
 legal_review_required: true
 notes: "Kept deliberately distinct from the fraud-and-theft page: this one addresses investigation-led corporate, financial and regulatory matters rather than individual dishonesty allegations. Investigating and regulatory bodies are referred to in general terms. No Act names, section numbers, compulsion provisions or penalties are cited, and the treatment of compelled answers and privilege is flagged as something to take advice on rather than stated as a rule. Please confirm the general description of parallel regulatory and criminal processes before publication."
 ---
