@@ -5,10 +5,15 @@
   "description": "Garda Station Solicitors, a Ferrys Solicitors LLP service - static site build",
   "scripts": {
     "build": "node build.js",
-    "serve": "node server.js"
+    "serve": "node server.js",
+    "images": "node images.js",
+    "qa": "node qa.js"
   },
   "dependencies": {
     "js-yaml": "^4.1.0",
     "marked": "^12.0.0"
+  },
+  "devDependencies": {
+    "sharp": "^0.33.0"
   }
 }
