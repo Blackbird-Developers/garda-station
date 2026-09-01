@@ -21,6 +21,11 @@ internal_links:
   - legal-aid
 schema: LegalService
 hero_image: law-library
+hook: "Accused of taking something, or of dishonesty at work?"
+hook_answer: >-
+  Allegations of this kind usually arrive after documents have already been gathered, and
+  often after an internal process you took part in. What you said to an employer can end up in
+  the Garda file. Ring 087 122 3080 before you add anything to it.
 legal_review_required: true
 notes: "Covers dishonesty offences at individual and workplace level; corporate and regulatory investigations are dealt with on the white-collar-crime page to keep the two distinct. No Act names, section numbers, value thresholds or penalties are cited. The point about repayment or restitution before advice is framed as a risk to be discussed with a solicitor, with no suggestion that it produces any particular result."
 ---
@@ -62,7 +67,7 @@ Visa applications and entry to the United States, Canada and Australia can also 
 
 ## How we act in these cases
 
-Our criminal defence team advises before voluntary interviews, attends Garda stations at any hour and appears in the District and Circuit Criminal Courts. Ferrys Solicitors LLP has practised since 1989, with six criminal defence solicitors across five Dublin offices. Ring 087 122 3080, or (01) 677 9408 in office hours.
+Our criminal defence team advises before voluntary interviews, attends Garda stations at any hour and appears in the District and Circuit Criminal Courts. Ferrys Solicitors LLP has practised since 1989, with six criminal defence solicitors across five Dublin offices. White collar crime and financial and banking investigations are among the areas Tony Collier, Partner, practises in, which matters once an allegation of this kind grows beyond a single incident. Ring 087 122 3080, or (01) 677 9408 in office hours.
 
 ## Common questions
 

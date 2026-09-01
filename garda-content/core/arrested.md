@@ -20,6 +20,11 @@ internal_links:
   - weekend-out-of-hours
 schema: WebPage
 hero_image: corridor
+hook: "Have you just been arrested?"
+hook_answer: >-
+  Say clearly to the member in charge that you want legal advice before any interview, and
+  name your solicitor. Then ring 087 122 3080. The rest of this page explains what the coming
+  hours look like, but that call comes first.
 legal_review_required: true
 notes: "Detention periods are deliberately described without hour limits or statutory references, per brief 4.2. Sampling is described generally because consent requirements and the consequences of refusal vary by sample type and by the power relied on; reviewing solicitor may wish to add or approve further detail."
 ---

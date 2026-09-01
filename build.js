@@ -103,6 +103,41 @@ function officePlace(o) {
   };
 }
 
+/* ------------------------------------------------------------------- Tony
+ * Tony Collier is the named lead for this property (_BRIEF.md s1) and the
+ * site's E-E-A-T anchor. Every fact below comes from either _BRIEF.md s2 or
+ * the firm's own profile page; nothing is inferred.
+ *
+ * Deliberately NOT carried over from the prototype: "one of Ireland's most
+ * experienced criminal defence solicitors" and "some of the biggest cases in
+ * the history of the State". Both are comparative/superlative claims barred by
+ * _BRIEF.md s4.1, regardless of appearing on the firm's live site.
+ */
+const TONY = {
+  name: 'Tony Collier',
+  role: 'Partner, Criminal Defence',
+  photo: 'tony-collier',
+  avatar: 'tony-collier-avatar',
+  profileUrl: 'https://ferrysolicitors.com/our_team/tony-collier/',
+  page: 'tony-collier',
+  creds: [
+    'Partner, Ferrys Solicitors LLP, based at the Ormond Quay office',
+    'Law Society of Ireland, Education Faculty',
+    'Dublin Solicitors Bar Association, Criminal Law Committee',
+    'Appears in the District, Circuit Criminal, Central Criminal and Special Criminal Courts',
+    'Writes on criminal justice and criminal legal aid for the Law Society Gazette',
+  ],
+  // Feeds schema.org knowsAbout. Mirrors the practice areas on his firm profile.
+  knowsAbout: [
+    'Criminal defence', 'Garda station interviews', 'Road traffic law',
+    'Drink and drug driving', 'Sexual offences', 'Murder and manslaughter',
+    'White collar crime', 'Judicial review', 'Warrants and extradition',
+    'Criminal legal aid',
+  ],
+};
+
+const TONY_ID = () => `${SITE.domain}${urlFor(TONY.page)}#tony-collier`;
+
 /* ---------------------------------------------------------------- collect */
 
 function collectPages() {
@@ -135,7 +170,12 @@ function parsePage(file) {
   }
   body = body.slice(0, cut).trim();
 
-  return { file, fm, body, wordCount: body.split(/\s+/).length };
+  // The hook is user-facing page copy that happens to live in frontmatter, so
+  // it counts. Without this the CSV under-reports by ~50 words on every hooked
+  // page, and that CSV is what the reviewing solicitor checks the _BRIEF.md
+  // s6.2 bands against.
+  const counted = [body, fm.hook || '', fm.hook_answer || ''].join(' ');
+  return { file, fm, body, wordCount: counted.split(/\s+/).filter(Boolean).length };
 }
 
 /* ------------------------------------------------------------- transforms */
@@ -196,6 +236,27 @@ function postProcess(html) {
   html = html.replace(/(?<!>)087 122 3080(?![^<]*<\/a>)/g,
     `<a href="${SITE.tel24Href}" data-cta="call"><strong>087 122 3080</strong></a>`);
   return html;
+}
+
+/* Situational hook: a short question naming the reader's state, answered at
+ * once, sitting between the urgent callout and the first content section.
+ *
+ * Optional. Pages with no `hook` render exactly as they did before. The h2 is
+ * emitted bare rather than wrapped, so every existing .prose descendant rule
+ * applies to it unchanged.
+ *
+ * The question must name something true about THIS page. A single templated
+ * question repeated across a tier would reproduce the boilerplate problem in
+ * _BRIEF.md s5, which is the whole reason the competitor's county tier fails.
+ */
+function hookHtml(fm) {
+  if (!fm.hook) return '';
+  const q = `<h2 class="hook-q">${inlineMd(String(fm.hook))}</h2>`;
+  if (!fm.hook_answer) return q;
+  const a = postProcess(marked.parse(String(fm.hook_answer).trim()))
+    .replace('<p>', '<p class="hook-a">');
+  return `${q}
+${a}`;
 }
 
 function urgentBoxHtml(calloutMd) {
@@ -291,12 +352,53 @@ function heroVariant(name, size) {
   return fs.existsSync(path.join(ROOT, 'assets', 'img', `${v}.webp`)) ? v : name;
 }
 
-function imageSetCss(name) {
+function imageSet(name) {
   return `image-set(url('/assets/img/${name}.webp') type('image/webp'), url('/assets/img/${name}.jpg') type('image/jpeg'))`;
 }
 
+/* Compact attribution strip, rendered at the top of every page's prose.
+ *
+ * Wording is deliberately limited to what is true at build time: that Tony
+ * leads the practice. It does NOT claim he has personally reviewed the page.
+ * Set `reviewed_by: tony-collier` (with optional `reviewed_date`) in a page's
+ * frontmatter once he actually has, and the strip upgrades to a review credit
+ * and emits schema.org reviewedBy. See _HANDOFF.md.
+ */
+function bylineHtml(fm) {
+  const reviewed = fm.reviewed_by === 'tony-collier';
+  const when = reviewed && fm.reviewed_date
+    ? ` on <time datetime="${escapeHtml(fm.reviewed_date)}">${escapeHtml(fm.reviewed_date)}</time>`
+    : '';
+  const lead = reviewed
+    ? `Reviewed by <a href="${urlFor(TONY.page)}"><strong>${TONY.name}</strong></a>, ${TONY.role}${when}`
+    : `Criminal defence at Ferrys Solicitors LLP is led by
+       <a href="${urlFor(TONY.page)}"><strong>${TONY.name}</strong></a>, ${TONY.role}`;
+  return `<div class="byline">
+  <span class="byline-avatar" style="background-image:${imageSet(TONY.avatar)}" role="img"
+        aria-label="Photograph of ${TONY.name}"></span>
+  <p>${lead}. Law Society of Ireland Education Faculty; DSBA Criminal Law Committee.</p>
+</div>`;
+}
+
+/* Full photo-and-credentials block. The .authority / .authority-photo / .creds
+ * rules have been in styles.css since the prototype but nothing rendered them
+ * once the site moved to this build, so every page lost its face. */
+function authorityHtml({ heading, body, cta = true }) {
+  return `<div class="authority">
+  <div class="authority-photo" style="background-image:${imageSet(TONY.photo)}" role="img"
+       aria-label="Photograph of ${TONY.name}, Partner, criminal defence"></div>
+  <div>
+    <h2 class="authority-name">${heading}</h2>
+${body}
+    <ul class="creds">
+      ${TONY.creds.map((c) => `<li>${c}</li>`).join('\n      ')}
+    </ul>
+${cta ? `    <p class="authority-cta"><a class="btn btn-green" href="${urlFor(TONY.page)}">More about ${TONY.name} and the team</a></p>\n` : ''}  </div>
+</div>`;
+}
+
 function heroMediaStyle(heroImage) {
-  return `background-image:${imageSetCss(heroVariant(heroImage, 1600))}`;
+  return `background-image:${imageSet(heroVariant(heroImage, 1600))}`;
 }
 
 // Inline style attributes win over stylesheet rules, so the small-viewport
@@ -304,7 +406,7 @@ function heroMediaStyle(heroImage) {
 function responsiveHeroStyle(hero) {
   const h960 = heroVariant(hero, 960);
   const cta960 = heroVariant('night-street', 960);
-  return `<style>@media (max-width:960px){.hero-media{background-image:${imageSetCss(h960)}!important}.cta-media{background-image:${imageSetCss(cta960)}!important}}</style>`;
+  return `<style>@media (max-width:960px){.hero-media{background-image:${imageSet(h960)}!important}.cta-media{background-image:${imageSet(cta960)}!important}}</style>`;
 }
 
 function gtmHead() {
@@ -339,6 +441,45 @@ function effectiveHero(fm) {
   return fm.hero_image;
 }
 
+/* One stable Tony entity, repeated with the same @id on all 55 pages so the
+ * crawler consolidates it rather than seeing 55 unrelated mentions of a name.
+ * The full node (image, knowsAbout, memberOf) renders on his own page; every
+ * other page carries a compact node plus a reference from its main entity. */
+function tonyNode(full) {
+  const node = {
+    '@type': ['Person', 'Attorney'],
+    '@id': TONY_ID(),
+    name: TONY.name,
+    jobTitle: TONY.role,
+    url: SITE.domain + urlFor(TONY.page),
+    image: `${SITE.domain}/assets/img/${TONY.photo}.jpg`,
+    // Full LegalService parent (url + foundingDate) per task #123yxuagbea.
+    worksFor: PARENT_ORG,
+  };
+  if (!full) return node;
+  return Object.assign(node, {
+    description:
+      'Partner in criminal defence at Ferrys Solicitors LLP, appearing in the District, '
+      + 'Circuit Criminal, Central Criminal and Special Criminal Courts.',
+    telephone: '+353871223080',
+    // TODO (handoff): add his LinkedIn URL here once supplied. It is referenced
+    // on his firm profile but the URL was not in the brief, so it is not invented.
+    sameAs: [TONY.profileUrl],
+    memberOf: [
+      { '@type': 'Organization', name: 'Law Society of Ireland Education Faculty' },
+      { '@type': 'Organization', name: 'Criminal Law Committee, Dublin Solicitors Bar Association' },
+    ],
+    knowsAbout: TONY.knowsAbout,
+    workLocation: {
+      '@type': 'Place', name: 'Ferrys Solicitors LLP, Ormond Quay',
+      address: {
+        '@type': 'PostalAddress', streetAddress: 'Inn Chambers, 15 Ormond Quay Upper',
+        addressLocality: 'Dublin', postalCode: 'D07 YK6A', addressCountry: 'IE',
+      },
+    },
+  });
+}
+
 function jsonLd(page, chain) {
   const url = SITE.domain + urlFor(page.fm.slug);
   const graphs = [];
@@ -356,6 +497,7 @@ function jsonLd(page, chain) {
         dayOfWeek: ['Monday','Tuesday','Wednesday','Thursday','Friday','Saturday','Sunday'],
         opens: '00:00', closes: '23:59',
       },
+      employee: { '@id': TONY_ID() },
       url,
     };
     if (page.fm.page_type === 'county') {
@@ -371,27 +513,22 @@ function jsonLd(page, chain) {
     }
     graphs.push(g);
   } else if (page.fm.schema === 'Attorney') {
-    graphs.push({
-      '@type': 'Attorney',
-      '@id': url + '#attorney',
-      name: 'Tony Collier',
-      jobTitle: 'Partner, Criminal Defence',
-      worksFor: PARENT_ORG,
-      memberOf: [
-        { '@type': 'Organization', name: 'Law Society of Ireland Education Faculty' },
-        { '@type': 'Organization', name: 'DSBA Criminal Law Committee' },
-      ],
-      knowsAbout: [
-        'Criminal defence', 'Garda station representation', 'Detention and questioning',
-        'Garda station legal aid', 'Criminal legal aid', 'Youth justice and the Children’s Court',
-      ],
-      // sameAs (LinkedIn) deliberately omitted: no URL in content or handoff.
-      // Needed from Art before launch - do not guess a profile URL.
-      telephone: '+353871223080',
-      url,
-    });
+    graphs.push(tonyNode(true));
   } else {
-    graphs.push({ '@type': 'WebPage', '@id': url, url, name: page.fm.title, description: page.fm.meta_description });
+    graphs.push({
+      '@type': 'WebPage', '@id': url, url, name: page.fm.title,
+      description: page.fm.meta_description, about: { '@id': TONY_ID() },
+    });
+  }
+
+  // The entity itself, on every page. Full detail only on his own page, where
+  // the Attorney branch above has already pushed it.
+  if (page.fm.schema !== 'Attorney') graphs.push(tonyNode(false));
+
+  // Only claim a review where the frontmatter actually asserts one.
+  if (page.fm.reviewed_by === 'tony-collier') {
+    graphs[0].reviewedBy = { '@id': TONY_ID() };
+    if (page.fm.reviewed_date) graphs[0].dateModified = page.fm.reviewed_date;
   }
   if (chain.length) {
     graphs.push({
@@ -416,7 +553,7 @@ const NAV = [
   ['legal-aid', 'Legal aid'],
   ['childrens-court', "Children's Court"],
   ['nationwide', 'Nationwide'],
-  ['tony-collier', 'Our team'],
+  ['tony-collier', 'Tony Collier'],
   ['contact', 'Contact'],
 ];
 
@@ -428,6 +565,7 @@ function renderPage(page, bySlug) {
   const [b3, faqHtml] = extractFaqs(b2);
   const contentHtml = postProcess(marked.parse(b3));
   const isHome = page.fm.slug === 'index';
+  const isTony = page.fm.slug === TONY.page;
   const hero = effectiveHero(page.fm);
   const robots = STAGING
     ? '<meta name="robots" content="noindex, nofollow">'
@@ -496,13 +634,50 @@ ${gtmBody()}
 </section>
 ${crumbHtml(chain, page)}
 
+${isTony ? `
+<section class="alt tight">
+  <div class="wrap">
+${authorityHtml({
+  heading: 'Tony Collier, Partner, Criminal Defence',
+  cta: false,
+  body: `    <p>Tony Collier leads criminal defence at Ferrys Solicitors LLP and appears in the
+       District Court, the Circuit Criminal Court, the Central Criminal Court and the
+       Special Criminal Court.</p>
+    <p class="pull">He does not only practise in this area of law. He teaches it.</p>
+    <p>He joined Ferrys in 2020, having previously run his own criminal practice in Dublin.
+       He is based at the firm's Ormond Quay office and can be reached at any hour on
+       <a href="${SITE.tel24Href}" data-cta="call">087 122 3080</a>.</p>`,
+})}
+  </div>
+</section>
+` : ''}
 <section>
   <div class="wrap prose">
+${isTony ? '' : bylineHtml(page.fm)}
 ${urgentBoxHtml(calloutMd)}
+${hookHtml(page.fm)}
 ${contentHtml}
 ${faqHtml}
   </div>
 </section>
+${isHome ? `
+<section class="alt">
+  <div class="wrap">
+${authorityHtml({
+  heading: 'The solicitor behind the number',
+  body: `    <p>Tony Collier leads criminal defence at Ferrys Solicitors LLP. He appears in the
+       District Court, the Circuit Criminal Court, the Central Criminal Court and the
+       Special Criminal Court, so a case that is sent forward for trial does not have to
+       change hands.</p>
+    <p class="pull">He does not only practise in this area of law. He teaches it.</p>
+    <p>Tony is a member of the Law Society of Ireland's Education Faculty and of the Dublin
+       Solicitors Bar Association's Criminal Law Committee, and he writes on criminal justice
+       and criminal legal aid for the Law Society Gazette. He joined Ferrys in 2020, having
+       previously run his own criminal practice in Dublin.</p>`,
+})}
+  </div>
+</section>
+` : ''}
 ${page.fm.slug === 'contact' ? callbackFormHtml() : ''}
 <section class="cta-band">
   <div class="cta-media" style="${heroMediaStyle('night-street')}"></div>

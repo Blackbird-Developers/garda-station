@@ -20,6 +20,11 @@ internal_links:
   - legal-aid
 schema: WebPage
 hero_image: consultation-room
+hook: "Has someone rung you from a station?"
+hook_answer: >-
+  You can instruct a solicitor on their behalf and you do not need to reach them first. Ring
+  087 122 3080 with whatever you have: the station, their name, and roughly when they were
+  taken in. That is enough to get started.
 legal_review_required: true
 notes: "Bail and surety described generally, with no figures and no statutory references. The warnings about contacting complainants and witnesses are deliberately firm because this is the most common way families make matters worse. Reviewing solicitor may wish to check the description of independent surety requirements."
 ---

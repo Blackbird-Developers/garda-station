@@ -20,6 +20,11 @@ internal_links:
   - contact
 schema: WebPage
 hero_image: georgian-door
+hook: "Been asked in for a chat?"
+hook_answer: >-
+  A voluntary attendance is still an interview, and what you say in it can be used in evidence
+  in the same way as anything said after an arrest. You are entitled to advice before you
+  agree a time. Ring 087 122 3080 first.
 legal_review_required: true
 notes: "Deliberately avoids stating that a person can always refuse to attend, since other powers may be engaged and the position varies with the circumstances. Framed as: take advice before agreeing, and a solicitor can make contact with the station on your behalf. No statutory references or hour limits used."
 ---

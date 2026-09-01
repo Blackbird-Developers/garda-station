@@ -21,6 +21,11 @@ internal_links:
   - legal-aid
 schema: LegalService
 hero_image: courts
+hook: "Has someone been arrested over a death?"
+hook_answer: >-
+  This is the most serious category of charge in Irish law, and what happens at the station
+  stage shapes everything that follows it. Nobody in this position should answer questions
+  without a solicitor present. Ring 087 122 3080 now, at any hour.
 legal_review_required: true
 notes: "Detention periods, sample-taking powers and inference provisions are described in general terms only, with no Act names, section numbers or hour limits. The page states that bail in a murder case is applied for in the High Court rather than the District Court, and that manslaughter may be tried in the Circuit Criminal Court or the Central Criminal Court depending on the case. Please confirm both procedural statements before publication. No outcome, defence prospect or sentence is suggested anywhere."
 ---

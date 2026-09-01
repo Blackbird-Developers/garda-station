@@ -21,6 +21,11 @@ internal_links:
   - assault
 schema: LegalService
 hero_image: night-street
+hook: "Arrested on a night out?"
+hook_answer: >-
+  Public order matters feel minor at the time and are dealt with quickly, which is exactly why
+  people accept an outcome without advice and find out later what it costs them. A conviction
+  still shows up on vetting. Ring 087 122 3080 before you agree to anything.
 legal_review_required: true
 notes: "Public order offences are described in ordinary language with no Act name, section numbers or penalties. Station bail and the charge sheet or summons routes are described generally. Nothing is said about likely outcomes, and no reference is made to the court poor box or to any form of disposal. Please confirm the general description of station bail before publication."
 ---
