@@ -14,6 +14,11 @@ internal_links:
   - voluntary-attendance
 schema: LegalService
 hero_image: garda-sign
+hook: "Held in Cork city, or out in the county?"
+hook_answer: >-
+  It matters which. Cork city is roughly 250 kilometres from us, two and a half to three hours
+  on the M8, and West Cork can be four hours or more. Ring 087 122 3080 and we will tell you
+  honestly whether we can reach you in time.
 legal_review_required: true
 notes: "No Cork office; stated plainly on the page. Cork is one of the furthest large centres from our Dublin offices and the travel section is deliberately cautious. Station list is principal stations only. Please confirm current District Court venue lists for Cork city and county against the Courts Service before publication. District Court district numbers deliberately omitted rather than risk an incorrect figure."
 ---

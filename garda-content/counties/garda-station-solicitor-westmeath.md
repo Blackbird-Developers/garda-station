@@ -14,6 +14,11 @@ internal_links:
   - garda-station-solicitor-dublin
 schema: LegalService
 hero_image: garda-sign
+hook: "How long is the drive to Mullingar at three in the morning?"
+hook_answer: >-
+  Mullingar is roughly an hour from Dublin on the N4 and M4 in good conditions. Those are
+  driving times in clear traffic rather than promises, and at three in the morning the drive
+  is the drive. Ring 087 122 3080.
 legal_review_required: true
 notes: "No Westmeath office; stated on the page. Please confirm current District Court sitting venues (Mullingar, Athlone) and whether Castlepollard or Kilbeggan still sit, before publication. Athlone straddles the Shannon and part of the town is in Roscommon; wording kept general."
 ---

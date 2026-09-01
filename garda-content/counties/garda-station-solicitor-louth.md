@@ -14,6 +14,11 @@ internal_links:
   - garda-station-solicitor-dublin
 schema: LegalService
 hero_image: garda-sign
+hook: "Picked up in Drogheda or Dundalk?"
+hook_answer: >-
+  Those two stations cover the largest towns in Louth and much of the surrounding area. The M1
+  runs the whole way from the M50 to Dundalk, which puts Louth closer to us than most
+  counties. Ring 087 122 3080.
 legal_review_required: true
 notes: "Firm has no Louth office; page is written to say so. Please confirm current District Court sitting venues for Louth (Dundalk, Drogheda, Ardee) against Courts Service lists before publication."
 ---

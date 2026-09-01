@@ -14,6 +14,11 @@ internal_links:
   - weekend-out-of-hours
 schema: LegalService
 hero_image: garda-sign
+hook: "Can a Dublin solicitor be any use to you in Kerry?"
+hook_answer: >-
+  Tralee is roughly 300 kilometres away and only part of that is motorway, with the roads west
+  of Limerick and Mallow slower again. Telephone advice is immediate either way. Ring 087 122
+  3080.
 legal_review_required: true
 notes: "No Kerry office; stated on the page. Kerry is among the furthest counties from Dublin and the travel section is deliberately unflattering to us on purpose. Please confirm the current District Court sitting venues for Kerry (Tralee, Killarney, Listowel, Cahersiveen and Dingle named here) against the Courts Service before publication. District numbers omitted deliberately."
 ---

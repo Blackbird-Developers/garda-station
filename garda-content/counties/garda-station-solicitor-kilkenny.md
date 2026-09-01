@@ -14,6 +14,11 @@ internal_links:
   - garda-station-solicitor-dublin
 schema: LegalService
 hero_image: garda-sign
+hook: "Been taken to Kilkenny city station?"
+hook_answer: >-
+  It handles the largest share of custody work in the county. Kilkenny is roughly an hour and
+  a half from Dublin, mostly on the M9 with a short run off it into the city. Ring 087 122
+  3080.
 legal_review_required: true
 notes: "No Kilkenny office; stated on the page. District and Circuit Court venue named as Kilkenny Courthouse, Parliament Street. Sittings at Callan, Thomastown and Castlecomer are not asserted as court venues; verify against Courts Service lists if they are to be added."
 ---

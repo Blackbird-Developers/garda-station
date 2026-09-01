@@ -14,6 +14,11 @@ internal_links:
   - voluntary-attendance
 schema: LegalService
 hero_image: garda-sign
+hook: "Held in the north of Tipperary, or the south?"
+hook_answer: >-
+  It changes the timing more than in most counties. The M7 clips the north of Tipperary, so
+  the northern stations are comparatively close while the south is a longer run. Ring 087 122
+  3080.
 legal_review_required: true
 notes: "No Tipperary office; stated on the page. Please confirm current District Court sitting venues for Tipperary (Clonmel, Thurles, Nenagh, Tipperary Town, Cashel, Carrick-on-Suir and Roscrea named here) and the Circuit Criminal venues, against the Courts Service before publication. District numbers omitted deliberately."
 ---

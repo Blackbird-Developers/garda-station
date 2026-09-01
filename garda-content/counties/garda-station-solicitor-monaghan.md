@@ -14,6 +14,11 @@ internal_links:
   - family-member-arrested
 schema: LegalService
 hero_image: garda-sign
+hook: "Arrested near the border in Monaghan?"
+hook_answer: >-
+  Monaghan town station covers the north of the county and the approaches to the Armagh and
+  Tyrone borders. It is closer to us than most counties on this side of the country, by the N2
+  through Ashbourne and Slane. Ring 087 122 3080.
 legal_review_required: true
 notes: "No Monaghan office; stated on the page. Please confirm current District Court sitting venues for Monaghan (Monaghan town, Carrickmacross and Castleblayney named here) against the Courts Service before publication; Clones and Ballybay omitted as unverified sitting venues. District numbers omitted deliberately."
 ---

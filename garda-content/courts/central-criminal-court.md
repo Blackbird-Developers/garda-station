@@ -18,6 +18,11 @@ internal_links:
   - tony-collier
 schema: LegalService
 hero_image: garda-station
+hook: "Has your case been sent to the Central Criminal Court?"
+hook_answer: >-
+  That is the High Court sitting in its criminal jurisdiction, and it tries the most serious
+  offences in Irish law before a judge and jury. A case does not arrive there by accident.
+  Ring 087 122 3080.
 legal_review_required: true
 notes: "Offence categories are given as examples only, with no statutory citation. No sentencing ranges are stated and the reference to sentences fixed by law is deliberately unspecific. Majority verdict rules are described without numbers or time periods. Please confirm the description of jurisdiction and of sittings outside Dublin before publication."
 ---

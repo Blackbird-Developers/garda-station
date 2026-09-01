@@ -14,6 +14,11 @@ internal_links:
   - weekend-out-of-hours
 schema: LegalService
 hero_image: garda-sign
+hook: "Been told Sligo is a long way from Dublin?"
+hook_answer: >-
+  It is around 200 kilometres, but unlike the routes south and west there is no motorway for
+  most of it, so the distance understates the drive. For a serious matter we will still make
+  it. Ring 087 122 3080.
 legal_review_required: true
 notes: "No Sligo office; stated on the page. Please confirm current District Court sitting venues for Sligo (Sligo town, Ballymote and Tubbercurry named here) against the Courts Service before publication. District numbers omitted deliberately."
 ---

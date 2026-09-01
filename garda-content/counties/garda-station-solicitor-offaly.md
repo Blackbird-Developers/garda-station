@@ -14,6 +14,11 @@ internal_links:
   - garda-station-solicitor-dublin
 schema: LegalService
 hero_image: garda-sign
+hook: "In custody in Tullamore, Birr or Edenderry?"
+hook_answer: >-
+  Tullamore handles the bulk of the county's custody work. Offaly is a midlands county with no
+  direct motorway to its county town, so the last part of any drive is regional roads. Ring
+  087 122 3080 and we will tell you the real timing.
 legal_review_required: true
 notes: "No Offaly office; stated on the page. Please confirm current District Court sitting venues (Tullamore and Birr named). Edenderry sittings not asserted. Confirm Circuit Court venue for Offaly before publication."
 ---

@@ -14,6 +14,11 @@ internal_links:
   - family-member-arrested
 schema: LegalService
 hero_image: garda-sign
+hook: "Held in Carrick-on-Shannon, or further north?"
+hook_answer: >-
+  Carrick-on-Shannon is roughly 160 kilometres from Dublin. North Leitrim is a longer drive
+  again, which makes telephone advice the first practical step rather than the fallback. Ring
+  087 122 3080.
 legal_review_required: true
 notes: "No Leitrim office; stated on the page. Please confirm current District Court sitting venues for Leitrim (Carrick-on-Shannon and Manorhamilton named here) against the Courts Service before publication, and whether Ballinamore or Mohill still sit. District numbers omitted deliberately."
 ---

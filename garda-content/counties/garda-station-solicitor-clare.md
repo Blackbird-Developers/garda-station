@@ -14,6 +14,11 @@ internal_links:
   - voluntary-attendance
 schema: LegalService
 hero_image: garda-sign
+hook: "Arrested in Clare, or stopped at Shannon?"
+hook_answer: >-
+  Arrests connected with Shannon Airport follow their own pattern and are dealt with
+  separately further down. Ennis is around 250 kilometres from us, so advice on the phone
+  comes first and travel is a separate question. Ring 087 122 3080.
 legal_review_required: true
 notes: "No Clare office; stated on the page. The Shannon Airport paragraph is kept general and makes no claim about specific procedures or agencies; please review. Confirm current District Court sitting venues for Clare (Ennis, Kilrush, Ennistymon and Killaloe named here) against the Courts Service before publication. District numbers omitted deliberately."
 ---

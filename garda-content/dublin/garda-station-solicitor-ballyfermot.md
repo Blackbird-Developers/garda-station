@@ -14,6 +14,11 @@ internal_links:
   - arrested
 schema: LegalService
 hero_image: garda-sign
+hook: "Held in Ballyfermot Garda station?"
+hook_answer: >-
+  Our office is on the main Ballyfermot Road, in the middle of the village and a few minutes
+  from the station itself. That is about as short a journey as this work gets. Ring 087 122
+  3080.
 legal_review_required: true
 notes: "Station coverage list is based on west Dublin geography and should be confirmed by the firm against the stations we genuinely attend. Transport described in general terms only, no route numbers, parking or accessibility claims. No opening hours stated."
 ---

@@ -14,6 +14,11 @@ internal_links:
   - garda-station-solicitor-dublin
 schema: LegalService
 hero_image: garda-sign
+hook: "How quickly can somebody get to Navan?"
+hook_answer: >-
+  Meath is close. Ashbourne and Dunboyne are half an hour from north Dublin outside peak times
+  and Navan is nearer forty five minutes. Ring 087 122 3080 and we will tell you which
+  solicitor is on and how long they will be.
 legal_review_required: true
 notes: "No Meath office; page says so explicitly. Please verify current District Court venues for Meath (Navan, Trim, Kells, Dunshaughlin) and confirm whether Dunshaughlin still sits, before publication."
 ---

@@ -18,6 +18,11 @@ internal_links:
   - legal-aid
 schema: LegalService
 hero_image: garda-sign
+hook: "Been charged and given a court date?"
+hook_answer: >-
+  Almost every criminal case in Ireland begins in the District Court, whatever it becomes
+  later. A first appearance is usually short and is mostly about bail and dates rather than
+  guilt. Ring 087 122 3080 before it.
 legal_review_required: true
 notes: "Avoids time limits, penalty levels and statutory citations. Jurisdiction is described in general terms (summary trial, DPP directions and consent) without naming legislation. Please confirm the reference to Dublin District Court venues outside the Criminal Courts of Justice against current Courts Service sitting lists before publication."
 ---

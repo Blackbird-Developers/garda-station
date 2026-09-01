@@ -14,6 +14,11 @@ internal_links:
   - voluntary-attendance
 schema: LegalService
 hero_image: garda-sign
+hook: "Is Dublin too far away to be any use in Cavan?"
+hook_answer: >-
+  Cavan town is around 120 kilometres from Dublin on the M3, and Virginia and Kingscourt are
+  closer again, about an hour from the north of the city. Ring 087 122 3080 and we will tell
+  you what tonight actually looks like.
 legal_review_required: true
 notes: "No Cavan office; stated on the page. Please confirm current District Court sitting venues for Cavan (Cavan town and Bailieborough named here) against the Courts Service before publication; Virginia, Cootehill and Ballyconnell omitted as unverified sitting venues. District numbers omitted deliberately."
 ---

@@ -18,6 +18,11 @@ internal_links:
   - tony-collier
 schema: LegalService
 hero_image: garda-station
+hook: "Has your case been sent forward for trial?"
+hook_answer: >-
+  It has left the District Court and will be heard by a judge and a jury. That is usually the
+  point at which a case changes shape, and the wait that follows is longer than most people
+  expect. Ring 087 122 3080.
 legal_review_required: true
 notes: "Describes the indictment process in general terms only. No statutory citations, no time limits for service of the book of evidence, no sentencing ranges. Please confirm the description of arraignment and pre-trial listing practice matches current Dublin Circuit Criminal Court practice before publication."
 ---

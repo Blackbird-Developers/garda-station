@@ -14,6 +14,11 @@ internal_links:
   - criminal-courts-of-justice
 schema: LegalService
 hero_image: garda-sign
+hook: "Arrested anywhere in the Dublin Metropolitan Region?"
+hook_answer: >-
+  This is the one county where we have offices, five of them, and between them they sit within
+  a short drive of most stations in the city. Ring 087 122 3080 and a solicitor can usually be
+  with you quickly.
 legal_review_required: true
 notes: "Dublin is the firm's home ground and the five offices are all listed in the brief. Station list is drawn from well known Dublin Metropolitan Region stations; please confirm none has closed or amalgamated since the operating model changes. District Court venue detail outside the Criminal Courts of Justice (Swords, Dun Laoghaire, Blanchardstown, Balbriggan) should be checked against current Courts Service sitting lists before publication."
 ---

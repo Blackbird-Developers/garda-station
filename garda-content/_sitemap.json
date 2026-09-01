@@ -189,7 +189,7 @@
     ],
     "schema": "LegalService",
     "hero_image": "garda-sign",
-    "word_count": 657
+    "word_count": 705
   },
   {
     "file": "counties/garda-station-solicitor-cavan.md",
@@ -207,7 +207,7 @@
     ],
     "schema": "LegalService",
     "hero_image": "garda-sign",
-    "word_count": 627
+    "word_count": 679
   },
   {
     "file": "counties/garda-station-solicitor-clare.md",
@@ -225,7 +225,7 @@
     ],
     "schema": "LegalService",
     "hero_image": "garda-sign",
-    "word_count": 646
+    "word_count": 693
   },
   {
     "file": "counties/garda-station-solicitor-cork.md",
@@ -243,7 +243,7 @@
     ],
     "schema": "LegalService",
     "hero_image": "garda-sign",
-    "word_count": 641
+    "word_count": 697
   },
   {
     "file": "counties/garda-station-solicitor-donegal.md",
@@ -261,7 +261,7 @@
     ],
     "schema": "LegalService",
     "hero_image": "garda-sign",
-    "word_count": 659
+    "word_count": 712
   },
   {
     "file": "counties/garda-station-solicitor-dublin.md",
@@ -279,7 +279,7 @@
     ],
     "schema": "LegalService",
     "hero_image": "garda-sign",
-    "word_count": 657
+    "word_count": 704
   },
   {
     "file": "counties/garda-station-solicitor-galway.md",
@@ -297,7 +297,7 @@
     ],
     "schema": "LegalService",
     "hero_image": "garda-sign",
-    "word_count": 673
+    "word_count": 720
   },
   {
     "file": "counties/garda-station-solicitor-kerry.md",
@@ -315,7 +315,7 @@
     ],
     "schema": "LegalService",
     "hero_image": "garda-sign",
-    "word_count": 664
+    "word_count": 708
   },
   {
     "file": "counties/garda-station-solicitor-kildare.md",
@@ -333,7 +333,7 @@
     ],
     "schema": "LegalService",
     "hero_image": "garda-sign",
-    "word_count": 641
+    "word_count": 693
   },
   {
     "file": "counties/garda-station-solicitor-kilkenny.md",
@@ -351,7 +351,7 @@
     ],
     "schema": "LegalService",
     "hero_image": "garda-sign",
-    "word_count": 646
+    "word_count": 690
   },
   {
     "file": "counties/garda-station-solicitor-laois.md",
@@ -369,7 +369,7 @@
     ],
     "schema": "LegalService",
     "hero_image": "garda-sign",
-    "word_count": 635
+    "word_count": 680
   },
   {
     "file": "counties/garda-station-solicitor-leitrim.md",
@@ -387,7 +387,7 @@
     ],
     "schema": "LegalService",
     "hero_image": "garda-sign",
-    "word_count": 635
+    "word_count": 671
   },
   {
     "file": "counties/garda-station-solicitor-limerick.md",
@@ -405,7 +405,7 @@
     ],
     "schema": "LegalService",
     "hero_image": "garda-sign",
-    "word_count": 666
+    "word_count": 700
   },
   {
     "file": "counties/garda-station-solicitor-longford.md",
@@ -423,7 +423,7 @@
     ],
     "schema": "LegalService",
     "hero_image": "garda-sign",
-    "word_count": 636
+    "word_count": 689
   },
   {
     "file": "counties/garda-station-solicitor-louth.md",
@@ -441,7 +441,7 @@
     ],
     "schema": "LegalService",
     "hero_image": "garda-sign",
-    "word_count": 662
+    "word_count": 707
   },
   {
     "file": "counties/garda-station-solicitor-mayo.md",
@@ -459,7 +459,7 @@
     ],
     "schema": "LegalService",
     "hero_image": "garda-sign",
-    "word_count": 664
+    "word_count": 713
   },
   {
     "file": "counties/garda-station-solicitor-meath.md",
@@ -477,7 +477,7 @@
     ],
     "schema": "LegalService",
     "hero_image": "garda-sign",
-    "word_count": 630
+    "word_count": 679
   },
   {
     "file": "counties/garda-station-solicitor-monaghan.md",
@@ -495,7 +495,7 @@
     ],
     "schema": "LegalService",
     "hero_image": "garda-sign",
-    "word_count": 656
+    "word_count": 705
   },
   {
     "file": "counties/garda-station-solicitor-offaly.md",
@@ -513,7 +513,7 @@
     ],
     "schema": "LegalService",
     "hero_image": "garda-sign",
-    "word_count": 630
+    "word_count": 681
   },
   {
     "file": "counties/garda-station-solicitor-roscommon.md",
@@ -531,7 +531,7 @@
     ],
     "schema": "LegalService",
     "hero_image": "garda-sign",
-    "word_count": 638
+    "word_count": 680
   },
   {
     "file": "counties/garda-station-solicitor-sligo.md",
@@ -549,7 +549,7 @@
     ],
     "schema": "LegalService",
     "hero_image": "garda-sign",
-    "word_count": 642
+    "word_count": 690
   },
   {
     "file": "counties/garda-station-solicitor-tipperary.md",
@@ -567,7 +567,7 @@
     ],
     "schema": "LegalService",
     "hero_image": "garda-sign",
-    "word_count": 629
+    "word_count": 672
   },
   {
     "file": "counties/garda-station-solicitor-waterford.md",
@@ -585,7 +585,7 @@
     ],
     "schema": "LegalService",
     "hero_image": "garda-sign",
-    "word_count": 634
+    "word_count": 669
   },
   {
     "file": "counties/garda-station-solicitor-westmeath.md",
@@ -603,7 +603,7 @@
     ],
     "schema": "LegalService",
     "hero_image": "garda-sign",
-    "word_count": 637
+    "word_count": 689
   },
   {
     "file": "counties/garda-station-solicitor-wexford.md",
@@ -621,7 +621,7 @@
     ],
     "schema": "LegalService",
     "hero_image": "garda-sign",
-    "word_count": 659
+    "word_count": 699
   },
   {
     "file": "counties/garda-station-solicitor-wicklow.md",
@@ -639,7 +639,7 @@
     ],
     "schema": "LegalService",
     "hero_image": "garda-sign",
-    "word_count": 635
+    "word_count": 680
   },
   {
     "file": "courts/central-criminal-court.md",
@@ -657,7 +657,7 @@
     ],
     "schema": "LegalService",
     "hero_image": "garda-station",
-    "word_count": 757
+    "word_count": 804
   },
   {
     "file": "courts/childrens-court.md",
@@ -676,7 +676,7 @@
     ],
     "schema": "LegalService",
     "hero_image": "garda-sign",
-    "word_count": 771
+    "word_count": 818
   },
   {
     "file": "courts/circuit-criminal-court.md",
@@ -694,7 +694,7 @@
     ],
     "schema": "LegalService",
     "hero_image": "garda-station",
-    "word_count": 760
+    "word_count": 810
   },
   {
     "file": "courts/criminal-courts-of-justice.md",
@@ -714,7 +714,7 @@
     ],
     "schema": "LegalService",
     "hero_image": "garda-station",
-    "word_count": 753
+    "word_count": 803
   },
   {
     "file": "courts/dublin-district-court.md",
@@ -732,7 +732,7 @@
     ],
     "schema": "LegalService",
     "hero_image": "garda-sign",
-    "word_count": 761
+    "word_count": 805
   },
   {
     "file": "courts/special-criminal-court.md",
@@ -750,7 +750,7 @@
     ],
     "schema": "LegalService",
     "hero_image": "garda-station",
-    "word_count": 751
+    "word_count": 794
   },
   {
     "file": "dublin/garda-station-solicitor-artane.md",
@@ -768,7 +768,7 @@
     ],
     "schema": "LegalService",
     "hero_image": "garda-station",
-    "word_count": 615
+    "word_count": 657
   },
   {
     "file": "dublin/garda-station-solicitor-ballyfermot.md",
@@ -786,7 +786,7 @@
     ],
     "schema": "LegalService",
     "hero_image": "garda-sign",
-    "word_count": 621
+    "word_count": 663
   },
   {
     "file": "dublin/garda-station-solicitor-ballymun.md",
@@ -804,7 +804,7 @@
     ],
     "schema": "LegalService",
     "hero_image": "garda-station",
-    "word_count": 624
+    "word_count": 662
   },
   {
     "file": "dublin/garda-station-solicitor-ormond-quay.md",
@@ -822,7 +822,7 @@
     ],
     "schema": "LegalService",
     "hero_image": "garda-station",
-    "word_count": 615
+    "word_count": 653
   },
   {
     "file": "dublin/garda-station-solicitor-rialto.md",
@@ -840,7 +840,7 @@
     ],
     "schema": "LegalService",
     "hero_image": "garda-station",
-    "word_count": 595
+    "word_count": 633
   },
   {
     "file": "nationwide.md",

@@ -171,114 +171,22 @@ In JSON-LD he is one `Person`/`Attorney` node with a stable `@id`, repeated on a
 pages so the entity consolidates. `LegalService` pages reference him as `employee`;
 `WebPage` pages as `about`.
 
-**Word counts.** Naming him on the four offence pages that match his stated practice
-areas pushed those pages past the `_BRIEF.md` s6.2 bands, as did the expanded detail on
-his own page. Trim on review if you would rather hold the bands; the additions are
-substantive rather than padding, so they were not cut pre-emptively.
+**Word counts. Every page type now has pages over the s6.2 bands, and the whole
+county tier is over.** The county pages had been written to sit just inside 650,
+so a hook of roughly 45 words tips all 26 of them. 20 pages that were inside
+their band before the hooks are now outside it.
 
-| Page | Before | After | Band |
+| Tier | Pages | Over band | Worst overrun |
 |---|---|---|---|
-| `tony-collier` | 1056 | 1206 | 700 to 1100 |
-| `road-traffic-offences` | 797 | 874 | 550 to 800 |
-| `sexual-offences` | 830 | 858 | 550 to 800 (already over) |
-| `fraud-and-theft` | 800 | 830 | 550 to 800 |
-| `drugs-offences` | 800 | 829 | 550 to 800 |
-| `index` | 1134 | 1115 | 700 to 1100 (was already over; de-duplication reduced it) |
+| core | 10 | 8 | +165 |
+| offence | 8 | 8 | +122 |
+| county | 26 | 26 | +70 |
+| court | 6 | 6 | +68 |
+| dublin-office | 5 | 4 | +13 |
 
-### 5.5 The situational hook
+This is a decision for review rather than something to absorb silently. The
+overruns are 5 to 15 per cent and the added copy is substantive, not padding,
+so nothing was cut pre-emptively. If the bands are to hold, the county hook
+answers are the place to trim: they run about 45 words and would need to come
+down to roughly 25.
 
-Borrowed, deliberately, from the one thing the competing site does well. Their pages
-open with a short question naming the reader's exact state ("Arrested at the weekend?")
-answered on the very next line, in slot 2 of 9. Ours put every question in a
-`Common questions` block at the bottom, slot 6 of 7. We publish 225 questions to their
-seven and still lose the position that decides whether a frightened person believes the
-page is about them.
-
-`hookHtml()` closes that gap: an `h2` plus a short answer, after the urgent callout and
-before the first content section. The callout stays first, because nothing outranks
-telling someone what to do right now.
-
-**Written so far: the 10 core and 8 offence pages.** The 26 county, 6 court and 5
-Dublin office pages have no `hook` yet and render unchanged until they get one.
-
-**The rule that matters when writing the rest.** Each hook must name something true
-about that page: the county, the court, the offence, the hour. The competitor's county
-tier fails precisely because nine headings are seven repeated blocks, and one templated
-question rolled across 26 county pages would import that failure wholesale. The county
-tier is the hardest of the three remaining and should not be done quickly.
-
-**None of the competitive analysis behind this may surface on the site.** `_BRIEF.md`
-s4.1 bars naming, referencing or alluding to a competing firm anywhere. The hooks read
-as our own copy or they do not ship.
-
-Note that `wordCount` counts `hook` and `hook_answer`, since both are user-facing page
-copy; the s6.2 bands in `_page-index.csv` therefore include them.
-
----
-
-## 6. Technical requirements
-
-| Item | Requirement |
-|---|---|
-| **Canonicals** | Prototype uses `https://www.gardastationsolicitors.example/`. **Placeholder.** Domain not yet decided. |
-| **Schema** | Build from the `schema` frontmatter key. `LegalService` needs `parentOrganization` pointing at Ferrys Solicitors LLP, `telephone`, `areaServed`, `openingHoursSpecification` (24/7). Tony's page uses `Attorney` with `memberOf` for the Law Society and DSBA. |
-| **NAP** | 24hr **087 122 3080** · office **(01) 677 9408** · WhatsApp `https://wa.me/353871223080` · info@ferrysolicitors.com. Must be byte-consistent everywhere. Inconsistent NAP is a known weakness of the competitor; do not repeat it. |
-| **Offices** | Five, all Dublin. Addresses and Eircodes are in `core/contact.md` and the five `dublin/` pages. **The firm has no offices outside Dublin.** |
-| **Images** | Serve WebP with JPEG fallback via `image-set()`, as the prototype does. Lazy-load below the fold. |
-| **Tracking** | Conversion tracking must exist **before launch**: GA4 key events for click-to-call, click-to-WhatsApp and form submits, segmented by page, with time-of-day recorded. Without it none of this is measurable. |
-| **Sitemap + GSC** | Generate `sitemap.xml`, submit in Search Console, request indexing on the priority pages. |
-| **Performance** | Target Good on all three Core Web Vitals. Hero images are the main risk. |
-
----
-
-## 7. Rules that content must not break
-
-These are compliance constraints, not style preferences. **If you write or edit any copy, they bind you too.** Full detail in `_BRIEF.md` section 4.
-
-1. **No em dashes.** Anywhere. Validated to zero across all 54 files. Keep it that way.
-2. **Never name or allude to a competing firm or solicitor.**
-3. **No comparative or superlative claims.** No "best", "leading", "top-rated", "number one".
-4. **No outcome guarantees or success rates.** No invented testimonials, reviews or case studies.
-5. **No specific statutory citations**, section numbers, Act names, hour limits, penalty amounts or disqualification periods. Detention is described only as depending on the legislation a person is held under and sometimes extendable. This is deliberate: it needs a practitioner to add specifics.
-6. **Never imply an office or local presence outside Dublin.** County pages are written honestly: the firm acts nationwide, will travel for serious matters, and will say plainly if it cannot attend in time. That honesty is a selling point and it protects the firm.
-7. **British/Irish English.** "Gardai", "An Garda Siochana", "member in charge", "defence", "organised".
-8. **Disclaimer** must appear on every page, unchanged.
-
----
-
-## 8. Before launch: blockers
-
-These are not optional.
-
-- [ ] **Compliance sign-off from Tony Collier** on positioning and copy standards. Law Society advertising rules apply and his Education Faculty role raises his personal exposure.
-- [ ] **Legal accuracy review** of all 54 pages by a Ferrys solicitor. Every file has `legal_review_required: true` and most carry specific queries in `notes`.
-- [ ] **Verify the Garda station and courthouse lists.** Writers named only stations and courts they were confident existed and flagged the rest, but **every list needs checking against the current Courts Service and Garda listings.** Highest risk: Donegal (nine venues), Mayo, Cork county, Kerry peninsulas. District Court district numbers were deliberately omitted throughout.
-- [ ] **Confirm the out-of-hours rota is genuinely staffed.** The site's central claim is a real 24/7 rota. Do not advertise cover that is not resourced.
-- [x] **Real photograph of Tony Collier.** Done. A photograph of the wider team is still outstanding.
-- [ ] **Tony's LinkedIn URL** for `sameAs` in his Person schema. His firm profile links to it but the URL was not supplied, so it has not been guessed. See the TODO in `tonyNode()` in `build.js`.
-- [ ] **Decide whether he personally reviews pages.** If he does, set `reviewed_by: tony-collier` in that page's frontmatter (see section 3). Until then the byline makes no review claim.
-- [ ] **Domain decision**, then update all canonicals.
-- [ ] **Confirm ownership of `tonycolliersolicitor.ie`** (it exists but returns empty).
-- [ ] **Conversion tracking live** before launch.
-
----
-
-## 9. Suggested build order
-
-1. Scaffold from `_page-index.csv`, wire the frontmatter into templates, port `styles.css`.
-2. Build the 9 core pages first; they carry the proposition and the highest intent.
-3. Write and build `nationwide.md`, then the 26 county pages beneath it.
-4. Build courts, offences, then the 5 Dublin office pages.
-5. Build the matching hub page for the main site at `ferrysolicitors.com/garda-station-solicitor/`. A prototype exists at `../garda-station-site/hub-page-for-ferrysolicitors-com.html`.
-6. Schema, sitemap, tracking, Core Web Vitals.
-7. Hold for legal sign-off. Then launch, then request indexing.
-
----
-
-## 10. Things worth knowing
-
-- **Word counts** run 596 to 1135 including headings. Core pages are longest, counties shortest by design.
-- **Uniqueness was measured**, not assumed: county pages are 68 to 80 percent distinct from their nearest sibling, court pages roughly 93 percent. This matters. The competitor's near-identical county pages are their biggest liability under Google's doorway-page guidance, and copying that pattern would have imported the risk. Keep pages substantive if you extend the set.
-- **30 links** originally pointed at a page called `what-happens-at-the-garda-station` that was never written. All have been repointed to `arrested`, which covers that ground. Do not recreate it as a separate thin page.
-- **The Children's Court page is a genuine competitive gap.** The competitor has nothing on youth justice. Ferrys has real strength here. Give it prominence.
-- **Do not chase a literal fifty-page count.** Fifty-four pages exist. If a page cannot be made genuinely useful, leave it out rather than padding.

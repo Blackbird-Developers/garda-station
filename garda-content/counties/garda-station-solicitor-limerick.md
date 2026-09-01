@@ -14,6 +14,10 @@ internal_links:
   - voluntary-attendance
 schema: LegalService
 hero_image: garda-sign
+hook: "Arrested in Limerick?"
+hook_answer: >-
+  The M7 runs almost the whole way, roughly 200 kilometres, which is around two hours in
+  normal conditions. Advice on the phone does not wait for that. Ring 087 122 3080.
 legal_review_required: true
 notes: "No Limerick office; stated on the page. Please confirm the current District Court sitting venues for county Limerick (Newcastle West and Kilmallock named here) and that Limerick Courthouse, Mulgrave Street is the correct current venue for District and Circuit criminal business, before publication. District numbers omitted deliberately."
 ---

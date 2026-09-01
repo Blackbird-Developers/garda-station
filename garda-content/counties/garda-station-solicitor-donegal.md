@@ -14,6 +14,11 @@ internal_links:
   - weekend-out-of-hours
 schema: LegalService
 hero_image: garda-sign
+hook: "Been told Dublin is simply too far?"
+hook_answer: >-
+  Donegal is the furthest county from us and we will not pretend otherwise. Letterkenny is
+  roughly 230 kilometres away, but the number understates it: a realistic drive is three to
+  three and a half hours. Ring 087 122 3080 and we will be straight with you.
 legal_review_required: true
 notes: "No Donegal office; stated plainly on the page. Donegal is the furthest county from our Dublin offices and the travel section is deliberately blunt about that. The reference to routes passing through Northern Ireland is factual and makes no legal claim. Please confirm current District Court sitting venues for Donegal against the Courts Service before publication. District numbers omitted deliberately."
 ---

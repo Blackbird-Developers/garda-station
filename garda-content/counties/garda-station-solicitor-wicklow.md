@@ -14,6 +14,11 @@ internal_links:
   - garda-station-solicitor-dublin
 schema: LegalService
 hero_image: garda-sign
+hook: "Held in Bray, or further down the county?"
+hook_answer: >-
+  Wicklow is not one place for this purpose. Bray is the busiest station in the county and
+  sits minutes from the Dublin border, while Arklow and the south west are a longer journey.
+  Ring 087 122 3080.
 legal_review_required: true
 notes: "No Wicklow office; stated on the page. Please confirm current District Court sitting venues for Wicklow (Bray, Wicklow town, Arklow, Baltinglass) and the Circuit Court venue before publication."
 ---

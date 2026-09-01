@@ -14,6 +14,11 @@ internal_links:
   - arrested
 schema: LegalService
 hero_image: garda-station
+hook: "Arrested on the northside?"
+hook_answer: >-
+  Our Artane office is at the corner where the Malahide Road meets Kilmore Road, in the middle
+  of the part of the northside it serves. Ring 087 122 3080 at any hour, or call in during
+  office hours.
 legal_review_required: true
 notes: "Station coverage list is based on northside and Dublin 5 geography and should be confirmed by the firm against the stations we genuinely attend. Malahide Road bus corridor referenced in general terms only. No opening hours, parking or accessibility details stated."
 ---

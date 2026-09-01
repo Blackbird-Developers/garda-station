@@ -20,6 +20,11 @@ internal_links:
   - tony-collier
 schema: LegalService
 hero_image: garda-station
+hook: "Is your court date at Parkgate Street?"
+hook_answer: >-
+  That is the Criminal Courts of Justice, the large round building in Dublin 7. Getting in,
+  finding your courtroom and what to bring are all set out below. If you do not yet have a
+  solicitor for the date, ring 087 122 3080.
 legal_review_required: true
 notes: "Orientation page for the building itself. Security screening and list-display detail is kept general because Courts Service arrangements change; please confirm nothing has altered materially before publication. No hour limits, statutory citations or sentencing detail appear on this page."
 ---

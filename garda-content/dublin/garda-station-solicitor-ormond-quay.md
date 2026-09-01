@@ -14,6 +14,10 @@ internal_links:
   - criminal-courts-of-justice
 schema: LegalService
 hero_image: garda-station
+hook: "Held in a city centre station?"
+hook_answer: >-
+  Our Ormond Quay office is on the north quays, a short distance downriver from the Four
+  Courts and a straight run west to the Criminal Courts of Justice. Ring 087 122 3080.
 legal_review_required: true
 notes: "Station coverage list is based on Dublin city centre and north inner city geography and should be confirmed by the firm against the stations we genuinely attend. Travel description for the Criminal Courts of Justice kept general. No opening hours stated."
 ---
