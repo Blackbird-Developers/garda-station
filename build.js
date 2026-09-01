@@ -259,6 +259,56 @@ function hookHtml(fm) {
 ${a}`;
 }
 
+/* The top band: the reader's question, Tony's face, and what to do, side by
+ * side directly under the hero.
+ *
+ * Previously these three were stacked down the page and his photograph did not
+ * appear at all outside the homepage and his own profile. Putting the face
+ * where the reader lands is the point: a frightened person at 3am is deciding
+ * whether there is a real solicitor behind the number.
+ *
+ * Column order on narrow screens is set in CSS, not here: recognise (the
+ * question), then act (the callout), then trust (Tony). The callout must not be
+ * pushed below the fold by a portrait.
+ */
+function topBandHtml(fm, calloutMd, withPhoto) {
+  const hook = hookHtml(fm);
+  const urgent = urgentBoxHtml(calloutMd);
+  if (!hook && !urgent && !withPhoto) return '';
+  const photo = withPhoto ? `
+      <div class="tb-photo">
+        <div class="tb-photo-img" style="background-image:${imageSet(TONY.photo)}" role="img"
+             aria-label="Photograph of ${TONY.name}, Partner, criminal defence"></div>
+        <div class="tb-photo-meta">
+          <span class="tb-name">${TONY.name}</span>
+          <span class="tb-role">${TONY.role}</span>
+          <ul class="tb-creds">
+            <li>Ferrys Solicitors LLP, established 1989</li>
+            <li>Law Society of Ireland, Education Faculty</li>
+            <li>DSBA Criminal Law Committee</li>
+            <li>District, Circuit Criminal, Central Criminal and Special Criminal Courts</li>
+          </ul>
+          <a class="tb-more" href="${urlFor(TONY.page)}">More about ${TONY.name}</a>
+          ${fm.reviewed_by === 'tony-collier'
+            ? `<p class="tb-reviewed">Reviewed by ${TONY.name}${fm.reviewed_date
+                ? ` on <time datetime="${escapeHtml(fm.reviewed_date)}">${escapeHtml(fm.reviewed_date)}</time>` : ''}</p>`
+            : ''}
+        </div>
+      </div>` : '';
+  return `<section class="top-band">
+  <div class="wrap">
+    <div class="tb-grid${withPhoto ? '' : ' tb-grid-2'}">
+      <div class="tb-lead">
+${hook}
+      </div>${photo}
+      <div class="tb-action">
+${urgent}
+      </div>
+    </div>
+  </div>
+</section>`;
+}
+
 function urgentBoxHtml(calloutMd) {
   if (!calloutMd) return '';
   const inner = calloutMd.replace(/^> ?/gm, '').replace(/\*\*If the Gardai are waiting\*\*\s*/, '');
@@ -356,29 +406,6 @@ function imageSet(name) {
   return `image-set(url('/assets/img/${name}.webp') type('image/webp'), url('/assets/img/${name}.jpg') type('image/jpeg'))`;
 }
 
-/* Compact attribution strip, rendered at the top of every page's prose.
- *
- * Wording is deliberately limited to what is true at build time: that Tony
- * leads the practice. It does NOT claim he has personally reviewed the page.
- * Set `reviewed_by: tony-collier` (with optional `reviewed_date`) in a page's
- * frontmatter once he actually has, and the strip upgrades to a review credit
- * and emits schema.org reviewedBy. See _HANDOFF.md.
- */
-function bylineHtml(fm) {
-  const reviewed = fm.reviewed_by === 'tony-collier';
-  const when = reviewed && fm.reviewed_date
-    ? ` on <time datetime="${escapeHtml(fm.reviewed_date)}">${escapeHtml(fm.reviewed_date)}</time>`
-    : '';
-  const lead = reviewed
-    ? `Reviewed by <a href="${urlFor(TONY.page)}"><strong>${TONY.name}</strong></a>, ${TONY.role}${when}`
-    : `Criminal defence at Ferrys Solicitors LLP is led by
-       <a href="${urlFor(TONY.page)}"><strong>${TONY.name}</strong></a>, ${TONY.role}`;
-  return `<div class="byline">
-  <span class="byline-avatar" style="background-image:${imageSet(TONY.avatar)}" role="img"
-        aria-label="Photograph of ${TONY.name}"></span>
-  <p>${lead}. Law Society of Ireland Education Faculty; DSBA Criminal Law Committee.</p>
-</div>`;
-}
 
 /* Full photo-and-credentials block. The .authority / .authority-photo / .creds
  * rules have been in styles.css since the prototype but nothing rendered them
@@ -672,33 +699,14 @@ ${authorityHtml({
   </div>
 </section>
 ` : ''}
+${topBandHtml(page.fm, calloutMd, !isTony)}
 <section>
   <div class="wrap prose">
-${isTony ? '' : bylineHtml(page.fm)}
-${urgentBoxHtml(calloutMd)}
-${hookHtml(page.fm)}
 ${contentHtml}
 ${faqHtml}
   </div>
 </section>
-${isHome ? `
-<section class="alt">
-  <div class="wrap">
-${authorityHtml({
-  heading: 'The solicitor behind the number',
-  body: `    <p>Tony Collier leads criminal defence at Ferrys Solicitors LLP. He appears in the
-       District Court, the Circuit Criminal Court, the Central Criminal Court and the
-       Special Criminal Court, so a case that is sent forward for trial does not have to
-       change hands.</p>
-    <p class="pull">He does not only practise in this area of law. He teaches it.</p>
-    <p>Tony is a member of the Law Society of Ireland's Education Faculty and of the Dublin
-       Solicitors Bar Association's Criminal Law Committee, and he writes on criminal justice
-       and criminal legal aid for the Law Society Gazette. He joined Ferrys in 2020, having
-       previously run his own criminal practice in Dublin.</p>`,
-})}
-  </div>
-</section>
-` : ''}
+
 ${page.fm.slug === 'contact' ? callbackFormHtml() : ''}
 <section class="cta-band">
   <div class="cta-media" style="${heroMediaStyle('garda-station')}"></div>

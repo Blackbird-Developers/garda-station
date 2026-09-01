@@ -283,29 +283,58 @@ section.green .right-item p { color: #c3d4c9; }
    a second competing panel directly under the urgent callout. */
 .hook-a { font-size: 18.5px; line-height: 1.6; color: var(--ink); }
 
-/* ---------- Byline ----------
-   Quiet attribution strip at the top of every page. It must never compete
-   with the urgent callout directly beneath it, hence muted colour, small
-   type and a hairline rule rather than a filled card. */
-.byline {
-  display: flex; align-items: center; gap: 14px;
-  margin: 0 0 30px; padding-bottom: 18px;
-  border-bottom: 1px solid var(--line);
+/* ---------- Top band ----------
+   The reader's question, Tony's photograph and the urgent callout sit side by
+   side directly under the hero, so his face is the first thing on the page
+   rather than something found by scrolling.
+
+   Narrow screens stack them by priority rather than by source order:
+   recognise (the question), act (the callout), then trust (the portrait). A
+   3/4 portrait at full width would otherwise push the callout off the screen,
+   which on this site is the one thing that must never happen, so below 900px
+   the portrait becomes a horizontal card. */
+.top-band { background: var(--bg-alt); border-bottom: 1px solid var(--line); padding: 40px 0 44px; }
+.tb-grid { display: grid; gap: 28px; grid-template-columns: 1fr; }
+@media (min-width: 900px) {
+  .tb-grid { grid-template-columns: 1.05fr 0.72fr 0.95fr; gap: 38px; align-items: start; }
+  .tb-grid-2 { grid-template-columns: 1.15fr 1fr; }
 }
-.byline-avatar {
-  flex: 0 0 46px; width: 46px; height: 46px; border-radius: 50%;
-  background-size: cover; background-position: center top;
-  border: 1px solid var(--line);
+@media (max-width: 899px) {
+  .tb-lead { order: 1; } .tb-action { order: 2; } .tb-photo { order: 3; }
+  .tb-photo { display: flex; gap: 18px; align-items: flex-start; }
+  .tb-photo-img { flex: 0 0 116px; }
 }
-.byline p {
-  margin: 0; font-size: 14.5px; line-height: 1.55; color: var(--muted);
+
+.tb-lead .hook-q { margin-top: 0; font-size: clamp(22px, 2.6vw, 28px); }
+.tb-lead .hook-a { margin-bottom: 0; }
+
+.tb-photo-img {
+  aspect-ratio: 3/4; border-radius: var(--radius); border: 1px solid var(--line);
+  background-size: cover; background-position: center top; background-color: var(--navy);
 }
-.byline a { color: var(--body); text-decoration: none; border-bottom: 1px solid var(--brass); }
-.byline a:hover { color: var(--ink); }
-@media (max-width: 560px) {
-  .byline { gap: 12px; }
-  .byline p { font-size: 13.5px; }
-}
+.tb-name { display: block; font-family: var(--serif); font-size: 20px; font-weight: 600;
+  color: var(--navy); margin-top: 14px; }
+.tb-photo .tb-photo-meta > .tb-name:first-child { margin-top: 0; }
+.tb-role { display: block; font-size: 14px; color: var(--muted); margin-top: 2px; }
+.tb-creds { list-style: none; padding: 0; margin: 13px 0 0; }
+.tb-creds li { font-size: 13.5px; line-height: 1.5; color: var(--body);
+  padding: 5px 0 5px 15px; position: relative; }
+.tb-creds li::before { content: ""; position: absolute; left: 0; top: 13px;
+  width: 8px; height: 1px; background: var(--brass); }
+.tb-more { display: inline-block; margin-top: 12px; font-size: 14px; color: var(--body);
+  text-decoration: none; border-bottom: 1px solid var(--brass); }
+.tb-more:hover { color: var(--ink); border-bottom-color: var(--ink); }
+.tb-reviewed { margin: 10px 0 0; font-size: 13px; color: var(--muted); }
+
+/* The hook and callout used to live inside .wrap.prose and inherited its link
+   styling. Moving them into the band took them out of that scope, which left
+   the 24 hour number rendering as default browser blue on every page. Scoped to
+   the two content columns so .tb-more keeps its own quieter treatment. */
+.tb-lead a, .tb-action a { color: var(--green); font-weight: 600; }
+.tb-lead a:hover, .tb-action a:hover { color: var(--brass); }
+
+/* the callout is already a finished component; it just needs to sit flush here */
+.tb-action .urgent-box { margin: 0; }
 
 /* ---------- Stats ---------- */
 .stats { display: grid; grid-template-columns: repeat(auto-fit, minmax(160px, 1fr)); gap: 26px; text-align: center; }

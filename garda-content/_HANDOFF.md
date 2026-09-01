@@ -148,14 +148,27 @@ surfaced him only in body copy: no photograph anywhere, and 41 of 55 pages did n
 mention him at all. The `.authority`, `.authority-photo` and `.creds` rules had been
 sitting unused in `styles.css` since the prototype. Two components now use them.
 
-**`bylineHtml()`** renders a compact strip (avatar, name, role, two memberships) at the
-top of every page's prose, above the urgent callout. It is deliberately quiet: muted
-type and a hairline rule, never a filled card, because nothing on this site should
-compete with the emergency callout.
+**`topBandHtml()`** puts three things side by side directly under the hero: the
+page's hook question, Tony's photograph with his credentials, and the urgent
+callout. It replaced the earlier quiet byline strip, which put only a 46px
+avatar on the page and buried the callout below it.
 
-**`authorityHtml()`** renders the full photo-and-credentials block. It appears twice:
-on the homepage as its own `section.alt` after the main prose, and at the top of his
-own page in place of the byline.
+The point is that his face is what the reader lands on. Someone deciding at 3am
+whether there is a real solicitor behind a 24 hour number should not have to
+scroll to find out.
+
+Narrow screens stack the columns by priority rather than source order:
+recognise (the question), act (the callout), then trust (the portrait). A 3/4
+portrait at full width would push the callout off the screen, which on this
+site is the one thing that must never happen, so below 900px it becomes a
+horizontal card.
+
+His own page gets a two column variant without the portrait, since the full
+authority block already sits above it.
+
+**`authorityHtml()`** renders the full photo-and-credentials block. It now
+appears only on his own page; the homepage version was removed once the band
+carried his photograph on every page, rather than showing it twice.
 
 Wording is limited to what is true at build time. The byline says Tony *leads* the
 practice; it does not claim he reviewed the page. See `reviewed_by` in section 3 for
