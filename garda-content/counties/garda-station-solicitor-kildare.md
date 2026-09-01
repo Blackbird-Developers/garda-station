@@ -14,6 +14,11 @@ internal_links:
   - garda-station-solicitor-dublin
 schema: LegalService
 hero_image: garda-sign
+hook: "Picked up in Naas, Newbridge or Maynooth?"
+hook_answer: >-
+  Kildare is one of the easiest counties in the country to reach from Dublin: the M7 runs to
+  Naas and Newbridge, the M4 to Leixlip and Maynooth. Ring 087 122 3080 and we will tell you
+  who is on and how long they will be.
 legal_review_required: true
 notes: "No Kildare office; stated on the page. Please confirm which District Court venues in Kildare currently sit (Naas and Athy named here) before publication, and whether Kildare town or Maynooth sittings should be added."
 ---

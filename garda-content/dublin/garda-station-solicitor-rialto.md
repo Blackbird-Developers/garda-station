@@ -14,6 +14,10 @@ internal_links:
   - arrested
 schema: LegalService
 hero_image: garda-station
+hook: "Arrested in the south inner city?"
+hook_answer: >-
+  Our Rialto office is on the South Circular Road between Dolphin's Barn and Kilmainham, and
+  it is the office we work from for this part of the city. Ring 087 122 3080.
 legal_review_required: true
 notes: "Station coverage list is based on south inner city and Dublin 8 geography and should be confirmed by the firm against the stations we genuinely attend. Luas red line Rialto stop referenced; no parking or accessibility claims made. No opening hours stated."
 ---

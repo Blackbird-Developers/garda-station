@@ -14,6 +14,11 @@ internal_links:
   - garda-station-solicitor-dublin
 schema: LegalService
 hero_image: garda-sign
+hook: "How long would it take us to reach Longford?"
+hook_answer: >-
+  The N4 and M4 run most of the way and the drive is in the region of an hour and a half to an
+  hour and three quarters in clear conditions. Ring 087 122 3080 and we will tell you what
+  tonight looks like.
 legal_review_required: true
 notes: "No Longford office; stated plainly. Please confirm current District Court sitting venues for Longford (Longford town named; Granard sittings not asserted) and the Circuit Court venue before publication."
 ---

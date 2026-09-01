@@ -18,6 +18,10 @@ internal_links:
   - tony-collier
 schema: LegalService
 hero_image: garda-station
+hook: "Is your case listed before the Special Criminal Court?"
+hook_answer: >-
+  That court sits without a jury: three judges hear the case and decide it together. If a
+  matter has been sent there it needs a solicitor who appears in it. Ring 087 122 3080.
 legal_review_required: true
 notes: "Written factually and without comment on the court's constitutional or political position, per instruction. Scheduled and non-scheduled offences are described in general terms with no statutory citation. Composition is described as three judges drawn from the existing benches; please confirm the description of certification by the Director of Public Prosecutions is expressed accurately for a lay audience before publication."
 ---

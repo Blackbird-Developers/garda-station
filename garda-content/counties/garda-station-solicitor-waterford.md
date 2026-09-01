@@ -14,6 +14,10 @@ internal_links:
   - weekend-out-of-hours
 schema: LegalService
 hero_image: garda-sign
+hook: "Arrested in Waterford city?"
+hook_answer: >-
+  The M9 runs most of the way, roughly 160 kilometres, which is around two hours in normal
+  traffic. Advice on the phone is available long before that. Ring 087 122 3080.
 legal_review_required: true
 notes: "No Waterford office; stated on the page. Please confirm the current District Court sitting venues for Waterford (Waterford city and Dungarvan named here) and the city courthouse address against the Courts Service before publication. District numbers omitted deliberately."
 ---

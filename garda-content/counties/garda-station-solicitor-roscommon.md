@@ -14,6 +14,11 @@ internal_links:
   - family-member-arrested
 schema: LegalService
 hero_image: garda-sign
+hook: "Been taken to Roscommon town station?"
+hook_answer: >-
+  Roscommon town is around 150 kilometres from us, which puts it within reach for a serious
+  matter. Ring 087 122 3080 and we will tell you honestly whether attendance makes sense for
+  what you are facing.
 legal_review_required: true
 notes: "No Roscommon office; stated on the page. Castlerea Prison is referenced only as a fact of geography and no claim is made about prison visiting or transfer procedures. Please confirm current District Court sitting venues for Roscommon (Roscommon town, Boyle and Castlerea named here) against the Courts Service before publication. District numbers omitted deliberately."
 ---

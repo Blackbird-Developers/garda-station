@@ -14,6 +14,10 @@ internal_links:
   - arrested
 schema: LegalService
 hero_image: garda-station
+hook: "Arrested in Ballymun, or stopped at the airport?"
+hook_answer: >-
+  Our Santry Cross office sits on the northern edge of the city where the Ballymun Road,
+  Santry and the airport corridor meet, so both are close. Ring 087 122 3080.
 legal_review_required: true
 notes: "Station coverage list is based on north Dublin geography and should be confirmed by the firm against the stations we genuinely attend, in particular whether we take airport arrests. Transport kept general, no route numbers or parking claims. No opening hours stated."
 ---

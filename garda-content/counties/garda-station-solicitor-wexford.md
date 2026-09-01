@@ -14,6 +14,10 @@ internal_links:
   - garda-station-solicitor-dublin
 schema: LegalService
 hero_image: garda-sign
+hook: "In a station in Gorey, Enniscorthy or Wexford town?"
+hook_answer: >-
+  Gorey is roughly an hour from south Dublin in clear conditions, which makes it one of the
+  more reachable stations on this page. Further south takes longer. Ring 087 122 3080.
 legal_review_required: true
 notes: "No Wexford office; stated on the page. Please confirm current District Court sitting venues (Wexford, Gorey, Enniscorthy, New Ross named) and the Circuit Court venue before publication. Rosslare Europort reference kept general and does not assert any customs or immigration procedure."
 ---

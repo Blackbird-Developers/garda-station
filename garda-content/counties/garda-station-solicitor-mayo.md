@@ -14,6 +14,11 @@ internal_links:
   - weekend-out-of-hours
 schema: LegalService
 hero_image: garda-sign
+hook: "Is Mayo too far for a Dublin solicitor?"
+hook_answer: >-
+  Castlebar is around 250 kilometres from us and only part of the route is dual carriageway,
+  so a realistic drive is about three hours. Ring 087 122 3080 and we will give you the honest
+  timing rather than an optimistic one.
 legal_review_required: true
 notes: "No Mayo office; stated on the page. Please confirm current District Court sitting venues for Mayo (Castlebar, Ballina, Westport, Swinford and Belmullet named here) against the Courts Service before publication; Achill and Claremorris omitted as unverified. District numbers omitted deliberately."
 ---

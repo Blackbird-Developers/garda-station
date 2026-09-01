@@ -14,6 +14,11 @@ internal_links:
   - garda-station-solicitor-dublin
 schema: LegalService
 hero_image: garda-sign
+hook: "In a cell in Portlaoise or Portarlington?"
+hook_answer: >-
+  The M7 runs directly to Portlaoise and the drive is generally around an hour in clear
+  conditions, with Portarlington a little closer. That makes Laois one of the more reachable
+  counties on this site. Ring 087 122 3080.
 legal_review_required: true
 notes: "No Laois office; stated on the page. Please confirm current District Court sitting venues for Laois (Portlaoise named; Abbeyleix and Portarlington sittings not asserted). Prison references are to Portlaoise Prison and the Midlands Prison, both in Portlaoise; kept factual and general."
 ---

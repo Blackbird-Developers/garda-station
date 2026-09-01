@@ -14,6 +14,11 @@ internal_links:
   - garda-station-solicitor-dublin
 schema: LegalService
 hero_image: garda-sign
+hook: "Arrested in Carlow?"
+hook_answer: >-
+  Carlow is the second smallest county in the State and its station network is compact, so
+  there is rarely much doubt about where you are. It is roughly an hour to an hour and a
+  quarter from Dublin on the M9. Ring 087 122 3080.
 legal_review_required: true
 notes: "No Carlow office; stated on the page. District Court venue named as Carlow Courthouse only; Bagenalstown and Tullow sittings not asserted and should be checked against Courts Service lists before publication."
 ---

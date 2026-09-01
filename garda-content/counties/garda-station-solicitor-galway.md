@@ -14,6 +14,11 @@ internal_links:
   - voluntary-attendance
 schema: LegalService
 hero_image: garda-sign
+hook: "In custody in Galway city, or further west?"
+hook_answer: >-
+  Galway city is about 210 kilometres from Dublin with the M6 running the whole way, so around
+  two to two and a half hours. West of the city the terrain drives everything about the
+  timing. Ring 087 122 3080.
 legal_review_required: true
 notes: "No Galway office; stated on the page. The reference to conducting proceedings in Irish is kept general and should be checked by the reviewing solicitor. Please confirm current District Court sitting venues for county Galway (Tuam, Ballinasloe, Loughrea, Gort and Clifden named here) against the Courts Service before publication. District numbers omitted deliberately."
 ---
