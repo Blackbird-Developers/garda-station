@@ -23,6 +23,12 @@ internal_links:
   - contact
 schema: LegalService
 hero_image: hero-dublin
+hook: "Arrested, or asked to come in?"
+hook_answer: >-
+  Those are two different positions and they carry different risks, but the first step is the
+  same in both. Get legal advice before you answer questions. If you have been arrested, [what
+  happens after arrest](/arrested) sets out the stages. If you have been asked to attend
+  voluntarily, start with [being asked in](/voluntary-attendance).
 legal_review_required: true
 notes: "Homepage. Detention periods are described in general terms only, with no statutory citation and no hour limits, per brief section 4.2. The six-solicitor rota claim appears here and on weekend-out-of-hours; please confirm the rota description matches current internal arrangements before publication."
 ---
@@ -73,7 +79,7 @@ Ferrys Solicitors LLP has been practising since 1989. Our criminal defence team 
 
 That matters more than it sounds. Cover provided by one person depends on whether that person happens to be free, awake and within reach. Ours is a rota between six practitioners, which is how one solicitor can attend a station on a Saturday night while another is already at a different one. Arrests do not queue politely.
 
-Tony Collier leads the team as Partner. He is a member of the Law Society of Ireland Education Faculty and of the DSBA Criminal Law Committee, and he appears in the District, Circuit Criminal, Central Criminal and Special Criminal Courts. Read more about [Tony and the team](/tony-collier).
+The team is led by **Tony Collier**, Partner, whose practice, professional roles and writing are set out further down this page and in full on [Tony Collier's page](/tony-collier).
 
 ## What happens when you call
 

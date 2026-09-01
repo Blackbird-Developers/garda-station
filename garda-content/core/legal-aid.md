@@ -20,6 +20,11 @@ internal_links:
   - weekend-out-of-hours
 schema: WebPage
 hero_image: consultation-room
+hook: "Worried about what this is going to cost?"
+hook_answer: >-
+  Advice at the Garda station is free of charge for most people under the Garda Station Legal
+  Advice Scheme, which is means tested rather than based on what you are accused of. Nobody
+  will ask you for money before a solicitor speaks to you. Ring 087 122 3080 and ask.
 legal_review_required: true
 notes: "Describes the Garda Station Legal Advice Scheme and criminal legal aid in general terms only, with no financial thresholds, contribution figures or statutory references, since these change. Reviewing solicitor should confirm the description of the means and gravity test and of the registration position before publication."
 ---

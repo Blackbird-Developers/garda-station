@@ -21,6 +21,11 @@ internal_links:
   - legal-aid
 schema: LegalService
 hero_image: night-street
+hook: "Stopped, breathalysed, or facing a driving ban?"
+hook_answer: >-
+  Road traffic prosecutions turn on procedure to an unusual degree: how the stop was made, how
+  a sample was taken, what you were told and when. Those details are worth having checked
+  before you plead to anything. Ring 087 122 3080.
 legal_review_required: true
 notes: "Station procedure for specimens is described in general terms only. No Act name, section numbers, alcohol concentration levels, observation periods, disqualification periods or penalties are stated. The page notes that the specimen procedure operates to its own timing and that a solicitor may not always be able to attend before a specimen is required; please confirm that framing, and the reference to the choice of specimen where a doctor or nurse attends, before publication."
 ---
@@ -60,6 +65,10 @@ Insurance is the next worry: the cost of cover, whether cover can be had at all,
 These cases turn on procedure and detail, and much of what affects your licence happens before you reach court. The sooner a solicitor knows what you were told, what you signed and what you were given, the better.
 
 Our criminal defence team advises at Garda stations at any hour and appears in the District and Circuit Criminal Courts. Ferrys Solicitors LLP has practised since 1989, with six criminal defence solicitors across five Dublin offices, so a call from a station at four in the morning reaches a solicitor on the rota. Ring 087 122 3080.
+
+## How we act in road traffic cases
+
+Road traffic law, including drink driving and drug driving, is among the areas Tony Collier, Partner, practises in. Our criminal defence team advises at the station at any hour and appears in the District Court, where most of these prosecutions are heard. Ferrys Solicitors LLP has practised since 1989, with six criminal defence solicitors across five Dublin offices. Ring 087 122 3080, or (01) 677 9408 in office hours.
 
 ## Common questions
 
