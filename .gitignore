@@ -1,2 +1,4 @@
 node_modules/
 dist/
+lead-config.php
+.claude/settings.local.json
