@@ -13,7 +13,7 @@ internal_links:
   - arrested
   - voluntary-attendance
 schema: LegalService
-hero_image: night-street
+hero_image: garda-sign
 legal_review_required: true
 notes: "No Cavan office; stated on the page. Please confirm current District Court sitting venues for Cavan (Cavan town and Bailieborough named here) against the Courts Service before publication; Virginia, Cootehill and Ballyconnell omitted as unverified sitting venues. District numbers omitted deliberately."
 ---

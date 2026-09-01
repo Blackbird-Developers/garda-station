@@ -20,7 +20,7 @@ internal_links:
   - family-member-arrested
   - legal-aid
 schema: LegalService
-hero_image: courts
+hero_image: garda-station
 hook: "Has someone been arrested over a death?"
 hook_answer: >-
   This is the most serious category of charge in Irish law, and what happens at the station

@@ -19,7 +19,7 @@ internal_links:
   - your-rights
   - legal-aid
 schema: LegalService
-hero_image: courts
+hero_image: garda-sign
 legal_review_required: true
 notes: "The most sensitive page in the court set. Youth diversion, anonymity and the appropriate adult requirement are described in general terms, with no statutory citation, no age thresholds beyond the general under-18 position, and no detention periods. The brief confirms Tony Collier appears in the District, Circuit Criminal, Central Criminal and Special Criminal Courts; the Children Court is a sitting of the District Court, but this page attributes Children's Court work to the criminal defence team generally rather than naming him in that court. Please confirm before publication."
 ---

@@ -19,7 +19,7 @@ internal_links:
   - childrens-court
   - tony-collier
 schema: LegalService
-hero_image: courts
+hero_image: garda-station
 legal_review_required: true
 notes: "Orientation page for the building itself. Security screening and list-display detail is kept general because Courts Service arrangements change; please confirm nothing has altered materially before publication. No hour limits, statutory citations or sentencing detail appear on this page."
 ---

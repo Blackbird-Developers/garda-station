@@ -13,7 +13,7 @@ internal_links:
   - arrested
   - garda-station-solicitor-dublin
 schema: LegalService
-hero_image: night-street
+hero_image: garda-sign
 legal_review_required: true
 notes: "No Longford office; stated plainly. Please confirm current District Court sitting venues for Longford (Longford town named; Granard sittings not asserted) and the Circuit Court venue before publication."
 ---

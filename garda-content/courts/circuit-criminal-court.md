@@ -17,7 +17,7 @@ internal_links:
   - central-criminal-court
   - tony-collier
 schema: LegalService
-hero_image: courts
+hero_image: garda-station
 legal_review_required: true
 notes: "Describes the indictment process in general terms only. No statutory citations, no time limits for service of the book of evidence, no sentencing ranges. Please confirm the description of arraignment and pre-trial listing practice matches current Dublin Circuit Criminal Court practice before publication."
 ---

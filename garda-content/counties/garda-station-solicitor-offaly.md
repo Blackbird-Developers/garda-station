@@ -13,7 +13,7 @@ internal_links:
   - arrested
   - garda-station-solicitor-dublin
 schema: LegalService
-hero_image: night-street
+hero_image: garda-sign
 legal_review_required: true
 notes: "No Offaly office; stated on the page. Please confirm current District Court sitting venues (Tullamore and Birr named). Edenderry sittings not asserted. Confirm Circuit Court venue for Offaly before publication."
 ---

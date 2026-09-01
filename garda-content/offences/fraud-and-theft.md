@@ -20,7 +20,7 @@ internal_links:
   - your-rights
   - legal-aid
 schema: LegalService
-hero_image: law-library
+hero_image: garda-station
 hook: "Accused of taking something, or of dishonesty at work?"
 hook_answer: >-
   Allegations of this kind usually arrive after documents have already been gathered, and

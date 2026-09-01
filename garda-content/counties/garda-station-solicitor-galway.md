@@ -13,7 +13,7 @@ internal_links:
   - arrested
   - voluntary-attendance
 schema: LegalService
-hero_image: night-street
+hero_image: garda-sign
 legal_review_required: true
 notes: "No Galway office; stated on the page. The reference to conducting proceedings in Irish is kept general and should be checked by the reviewing solicitor. Please confirm current District Court sitting venues for county Galway (Tuam, Ballinasloe, Loughrea, Gort and Clifden named here) against the Courts Service before publication. District numbers omitted deliberately."
 ---

@@ -19,12 +19,12 @@
 
 :root {
   /* Core palette — navy stays the institutional base, green is the Legora borrow */
-  --navy: #10263d;
-  --navy-dark: #0a1a2b;
-  --navy-mid: #1b3854;
-  --green: #1a4a33;          /* signature accent, echoes the reference */
-  --green-dark: #133b28;
-  --green-deep: #10352a;
+  --navy: #1b3d5c;
+  --navy-dark: #14314b;
+  --navy-mid: #2b5480;
+  --green: #215e43;          /* signature accent, echoes the reference */
+  --green-dark: #1a4c36;
+  --green-deep: #1d5239;
   --brass: #b08d4f;          /* traditional legal metal — brass plates, gilt spines */
   --brass-light: #cdae76;
   --urgent: #a8231c;         /* emergency red, used sparingly and never decoratively */
@@ -144,13 +144,40 @@ nav.site a:hover, nav.site a[aria-current="page"] { color: var(--brass-light); }
   position: absolute; inset: 0; z-index: 0;
   background-size: cover; background-position: center; background-repeat: no-repeat;
 }
+/* Two-layer scrim, tuned per photograph.
+   The old flat 62/55/93 overlay buried the image: it was built for text that
+   sits at the bottom, but measuring the rendered pages showed hero copy runs
+   from 14% to 91% of the box, so almost the whole frame carries text. This
+   shape is therefore even through the text body rather than top-light, and
+   every value is the least that still measures >= 4.5:1 for the lede and
+   assurance and >= 3.5:1 for the large h1, against the 95th-percentile
+   brightest pixel behind each one, in both the home and compact hero boxes.
+
+   Layer 1 is a mild left weighting behind the copy; layer 2 is the vertical
+   body. --s-* come from HERO_SCRIM in build.js, per photograph: a bright
+   subject (the marked car) needs roughly twice the cover of a dark one
+   (members). Re-measure if a photograph is swapped. */
 .hero-media::after {
   content: ""; position: absolute; inset: 0;
-  background: linear-gradient(180deg, rgba(10,26,43,.62) 0%, rgba(10,26,43,.55) 42%, rgba(10,26,43,.93) 100%);
+  background:
+    linear-gradient(90deg,
+      rgba(16,38,61, var(--s-side, .25)) 0%,
+      rgba(16,38,61, 0) 90%),
+    linear-gradient(180deg,
+      rgba(16,38,61, var(--s-top, .29)) 0%,
+      rgba(16,38,61, var(--s-a,   .40)) 12%,
+      rgba(16,38,61, var(--s-b,   .57)) 92%,
+      rgba(16,38,61, var(--s-bot, .65)) 100%);
 }
 .hero .wrap { position: relative; z-index: 1; }
-.hero h1 { color: #fff; max-width: 900px; }
-.hero .lede { font-size: clamp(17px, 2.1vw, 20.5px); color: #d3dde6; max-width: 640px; margin: 0 0 34px; }
+.hero h1 { color: #fff; max-width: 900px; text-shadow: 0 1px 14px rgba(10,24,40,.45); }
+.hero .lede { font-size: clamp(17px, 2.1vw, 20.5px); color: #e2eaf1; max-width: 640px; margin: 0 0 34px; text-shadow: 0 1px 10px rgba(10,24,40,.4); }
+/* postProcess() auto-links the 24 hour number, and on 33 pages that link lands
+   inside the hero lede. With no rule it rendered as the browser default blue on
+   a dark navy hero: unreadable, and a contrast failure. */
+.hero .lede a { color: #fff; text-decoration: none; border-bottom: 1px solid var(--brass-light); }
+.hero .lede a:hover { border-bottom-color: #fff; }
+
 .hero-actions { display: flex; gap: 14px; flex-wrap: wrap; margin-bottom: 32px; }
 .hero-assurance {
   display: flex; gap: 30px; flex-wrap: wrap; font-size: 14.5px;
@@ -312,7 +339,9 @@ details.faq .faq-body p:last-child { margin-bottom: 0; }
 /* ---------- CTA band ---------- */
 .cta-band { position: relative; color: #fff; text-align: center; overflow: hidden; background: var(--navy-dark); }
 .cta-band .cta-media { position: absolute; inset: 0; background-size: cover; background-position: center; }
-.cta-band .cta-media::after { content: ""; position: absolute; inset: 0; background: rgba(10,26,43,.86); }
+/* Was a flat .86 wash that hid the photograph entirely. Centred text needs
+   even cover, so this stays a flat layer, but a lighter one. */
+.cta-band .cta-media::after { content: ""; position: absolute; inset: 0; background: rgba(16,38,61,.74); }
 .cta-band .wrap { position: relative; z-index: 1; }
 .cta-band h2 { color: #fff; }
 .cta-band p { color: #c5d3df; max-width: 620px; margin: 0 auto 30px; font-size: 18px; }

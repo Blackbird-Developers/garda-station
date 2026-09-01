@@ -20,7 +20,7 @@ internal_links:
   - weekend-out-of-hours
   - legal-aid
 schema: LegalService
-hero_image: night-street
+hero_image: garda-car
 hook: "Stopped, breathalysed, or facing a driving ban?"
 hook_answer: >-
   Road traffic prosecutions turn on procedure to an unusual degree: how the stop was made, how

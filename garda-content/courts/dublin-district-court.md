@@ -17,7 +17,7 @@ internal_links:
   - arrested
   - legal-aid
 schema: LegalService
-hero_image: courts
+hero_image: garda-sign
 legal_review_required: true
 notes: "Avoids time limits, penalty levels and statutory citations. Jurisdiction is described in general terms (summary trial, DPP directions and consent) without naming legislation. Please confirm the reference to Dublin District Court venues outside the Criminal Courts of Justice against current Courts Service sitting lists before publication."
 ---

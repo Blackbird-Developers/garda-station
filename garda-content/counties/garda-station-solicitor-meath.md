@@ -13,7 +13,7 @@ internal_links:
   - arrested
   - garda-station-solicitor-dublin
 schema: LegalService
-hero_image: night-street
+hero_image: garda-sign
 legal_review_required: true
 notes: "No Meath office; page says so explicitly. Please verify current District Court venues for Meath (Navan, Trim, Kells, Dunshaughlin) and confirm whether Dunshaughlin still sits, before publication."
 ---

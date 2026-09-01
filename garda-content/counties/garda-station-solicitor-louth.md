@@ -13,7 +13,7 @@ internal_links:
   - arrested
   - garda-station-solicitor-dublin
 schema: LegalService
-hero_image: night-street
+hero_image: garda-sign
 legal_review_required: true
 notes: "Firm has no Louth office; page is written to say so. Please confirm current District Court sitting venues for Louth (Dundalk, Drogheda, Ardee) against Courts Service lists before publication."
 ---

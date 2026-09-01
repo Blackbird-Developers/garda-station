@@ -13,7 +13,7 @@ internal_links:
   - arrested
   - voluntary-attendance
 schema: LegalService
-hero_image: night-street
+hero_image: garda-sign
 legal_review_required: true
 notes: "No Limerick office; stated on the page. Please confirm the current District Court sitting venues for county Limerick (Newcastle West and Kilmallock named here) and that Limerick Courthouse, Mulgrave Street is the correct current venue for District and Circuit criminal business, before publication. District numbers omitted deliberately."
 ---

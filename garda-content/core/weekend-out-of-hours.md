@@ -19,7 +19,7 @@ internal_links:
   - family-member-arrested
   - contact
 schema: LegalService
-hero_image: night-street
+hero_image: garda-car
 hook: "Is it the middle of the night?"
 hook_answer: >-
   Ring 087 122 3080. Outside office hours it is answered by one of six criminal defence

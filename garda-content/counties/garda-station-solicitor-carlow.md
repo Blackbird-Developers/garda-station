@@ -13,7 +13,7 @@ internal_links:
   - arrested
   - garda-station-solicitor-dublin
 schema: LegalService
-hero_image: night-street
+hero_image: garda-sign
 legal_review_required: true
 notes: "No Carlow office; stated on the page. District Court venue named as Carlow Courthouse only; Bagenalstown and Tullow sittings not asserted and should be checked against Courts Service lists before publication."
 ---

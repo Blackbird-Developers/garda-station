@@ -17,7 +17,7 @@ internal_links:
   - dublin-district-court
   - tony-collier
 schema: LegalService
-hero_image: courts
+hero_image: garda-station
 legal_review_required: true
 notes: "Offence categories are given as examples only, with no statutory citation. No sentencing ranges are stated and the reference to sentences fixed by law is deliberately unspecific. Majority verdict rules are described without numbers or time periods. Please confirm the description of jurisdiction and of sittings outside Dublin before publication."
 ---

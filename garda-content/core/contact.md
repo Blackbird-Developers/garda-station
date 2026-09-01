@@ -19,7 +19,7 @@ internal_links:
   - tony-collier
   - legal-aid
 schema: LegalService
-hero_image: georgian-door
+hero_image: garda-station
 hook: "Is this urgent, or are you making a plan?"
 hook_answer: >-
   For anything happening now, ring 087 122 3080 at any hour. For an appointment or a question

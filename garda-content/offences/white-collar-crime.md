@@ -20,7 +20,7 @@ internal_links:
   - tony-collier
   - contact
 schema: LegalService
-hero_image: law-library
+hero_image: garda-station
 hook: "Asked to attend a regulatory or internal interview?"
 hook_answer: >-
   Interviews of this kind can run alongside a criminal investigation, and what you say in one

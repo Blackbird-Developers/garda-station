@@ -17,7 +17,7 @@ internal_links:
   - criminal-courts-of-justice
   - tony-collier
 schema: LegalService
-hero_image: courts
+hero_image: garda-station
 legal_review_required: true
 notes: "Written factually and without comment on the court's constitutional or political position, per instruction. Scheduled and non-scheduled offences are described in general terms with no statutory citation. Composition is described as three judges drawn from the existing benches; please confirm the description of certification by the Director of Public Prosecutions is expressed accurately for a lay audience before publication."
 ---

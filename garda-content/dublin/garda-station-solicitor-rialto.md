@@ -13,7 +13,7 @@ internal_links:
   - legal-aid
   - arrested
 schema: LegalService
-hero_image: georgian-door
+hero_image: garda-station
 legal_review_required: true
 notes: "Station coverage list is based on south inner city and Dublin 8 geography and should be confirmed by the firm against the stations we genuinely attend. Luas red line Rialto stop referenced; no parking or accessibility claims made. No opening hours stated."
 ---

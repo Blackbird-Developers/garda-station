@@ -13,7 +13,7 @@ internal_links:
   - arrested
   - garda-station-solicitor-dublin
 schema: LegalService
-hero_image: night-street
+hero_image: garda-sign
 legal_review_required: true
 notes: "No Wicklow office; stated on the page. Please confirm current District Court sitting venues for Wicklow (Bray, Wicklow town, Arklow, Baltinglass) and the Circuit Court venue before publication."
 ---

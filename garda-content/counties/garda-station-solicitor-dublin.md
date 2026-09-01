@@ -13,7 +13,7 @@ internal_links:
   - arrested
   - criminal-courts-of-justice
 schema: LegalService
-hero_image: hero-dublin
+hero_image: garda-sign
 legal_review_required: true
 notes: "Dublin is the firm's home ground and the five offices are all listed in the brief. Station list is drawn from well known Dublin Metropolitan Region stations; please confirm none has closed or amalgamated since the operating model changes. District Court venue detail outside the Criminal Courts of Justice (Swords, Dun Laoghaire, Blanchardstown, Balbriggan) should be checked against current Courts Service sitting lists before publication."
 ---

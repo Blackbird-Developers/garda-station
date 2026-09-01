@@ -125,11 +125,15 @@ There is also `../garda-station-site/standalone/` with CSS and images inlined. *
 The reader is frightened, usually on a phone, often at night. **The phone number outranks the elegance.** Keep the sticky emergency bar, the mobile call bar, and click-to-call plus click-to-WhatsApp above the fold on every page. Do not let a redesign bury the number.
 
 ### 5.3 Imagery
-Seven images in `../garda-station-site/assets/img/`, each as `.webp` and `.jpg`:
+**Replaced.** The eight AI-generated environmental shots are gone. Four real photographs now serve all 55 pages, each as `.webp` and `.jpg` in `assets/img/`:
 
-`hero-dublin` · `courts` · `consultation-room` · `law-library` · `night-street` · `georgian-door` · `corridor`
+`garda-station` (station exterior) · `garda-sign` (the blue lantern) · `garda-car` (marked traffic car) · `garda-members` (members on the street)
 
-Each page's `hero_image` names one. They are AI-generated environmental shots, deliberately containing **no people**. Distribution is uneven by design (29 pages use `night-street`), so consider generating two or three more environmental variants to reduce repetition across the 26 county pages.
+**Four photographs for 55 pages is thin**, and thinner than the eight it replaced. County heroes vary by province, which with four images yields three distinct county heroes across 26 pages rather than 26. Commissioning three or four more, in particular **a courthouse exterior** (the old `courts` shot had no replacement, and six court pages now carry a station photograph instead), would materially help.
+
+`garda-members` reads as a detention. It is used only where that is literally the subject (`arrested`, `assault`) and is deliberately excluded from the county map; putting it across a tier would be sensational, which s4.4 of the brief rules out.
+
+These are real photographs of real places, and two carry incidental members of the public at a distance. **Confirm licensing and usage rights before launch.**
 
 **Resolved.** A real photograph of Tony Collier is now in place, supplied by the client and cropped to two derivatives:
 

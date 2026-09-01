@@ -13,7 +13,7 @@ internal_links:
   - arrested
   - family-member-arrested
 schema: LegalService
-hero_image: night-street
+hero_image: garda-sign
 legal_review_required: true
 notes: "No Monaghan office; stated on the page. Please confirm current District Court sitting venues for Monaghan (Monaghan town, Carrickmacross and Castleblayney named here) against the Courts Service before publication; Clones and Ballybay omitted as unverified sitting venues. District numbers omitted deliberately."
 ---

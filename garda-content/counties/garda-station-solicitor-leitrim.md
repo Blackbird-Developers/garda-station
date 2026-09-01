@@ -13,7 +13,7 @@ internal_links:
   - arrested
   - family-member-arrested
 schema: LegalService
-hero_image: night-street
+hero_image: garda-sign
 legal_review_required: true
 notes: "No Leitrim office; stated on the page. Please confirm current District Court sitting venues for Leitrim (Carrick-on-Shannon and Manorhamilton named here) against the Courts Service before publication, and whether Ballinamore or Mohill still sit. District numbers omitted deliberately."
 ---

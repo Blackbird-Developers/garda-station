@@ -13,7 +13,7 @@ internal_links:
   - arrested
   - weekend-out-of-hours
 schema: LegalService
-hero_image: night-street
+hero_image: garda-sign
 legal_review_required: true
 notes: "No Donegal office; stated plainly on the page. Donegal is the furthest county from our Dublin offices and the travel section is deliberately blunt about that. The reference to routes passing through Northern Ireland is factual and makes no legal claim. Please confirm current District Court sitting venues for Donegal against the Courts Service before publication. District numbers omitted deliberately."
 ---

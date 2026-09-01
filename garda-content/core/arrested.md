@@ -19,7 +19,7 @@ internal_links:
   - family-member-arrested
   - weekend-out-of-hours
 schema: WebPage
-hero_image: corridor
+hero_image: garda-members
 hook: "Have you just been arrested?"
 hook_answer: >-
   Say clearly to the member in charge that you want legal advice before any interview, and

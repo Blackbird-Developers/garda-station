@@ -22,7 +22,7 @@ internal_links:
   - tony-collier
   - contact
 schema: LegalService
-hero_image: hero-dublin
+hero_image: garda-station
 hook: "Arrested, or asked to come in?"
 hook_answer: >-
   Those are two different positions and they carry different risks, but the first step is the

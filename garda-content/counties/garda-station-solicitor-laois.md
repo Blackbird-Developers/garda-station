@@ -13,7 +13,7 @@ internal_links:
   - arrested
   - garda-station-solicitor-dublin
 schema: LegalService
-hero_image: night-street
+hero_image: garda-sign
 legal_review_required: true
 notes: "No Laois office; stated on the page. Please confirm current District Court sitting venues for Laois (Portlaoise named; Abbeyleix and Portarlington sittings not asserted). Prison references are to Portlaoise Prison and the Midlands Prison, both in Portlaoise; kept factual and general."
 ---

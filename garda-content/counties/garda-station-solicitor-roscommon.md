@@ -13,7 +13,7 @@ internal_links:
   - arrested
   - family-member-arrested
 schema: LegalService
-hero_image: night-street
+hero_image: garda-sign
 legal_review_required: true
 notes: "No Roscommon office; stated on the page. Castlerea Prison is referenced only as a fact of geography and no claim is made about prison visiting or transfer procedures. Please confirm current District Court sitting venues for Roscommon (Roscommon town, Boyle and Castlerea named here) against the Courts Service before publication. District numbers omitted deliberately."
 ---

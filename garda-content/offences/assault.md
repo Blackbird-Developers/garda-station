@@ -20,7 +20,7 @@ internal_links:
   - public-order-offences
   - legal-aid
 schema: LegalService
-hero_image: corridor
+hero_image: garda-members
 hook: "Arrested after a fight?"
 hook_answer: >-
   Most assault allegations turn on who did what first and on what was reasonable in the

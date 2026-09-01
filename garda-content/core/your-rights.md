@@ -19,7 +19,7 @@ internal_links:
   - voluntary-attendance
   - contact
 schema: WebPage
-hero_image: law-library
+hero_image: garda-sign
 hook: "Not sure what you are allowed to ask for?"
 hook_answer: >-
   Everything on this page is an entitlement rather than a favour. The three that matter most

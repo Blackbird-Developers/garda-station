@@ -13,7 +13,7 @@ internal_links:
   - arrested
   - garda-station-solicitor-dublin
 schema: LegalService
-hero_image: night-street
+hero_image: garda-sign
 legal_review_required: true
 notes: "No Wexford office; stated on the page. Please confirm current District Court sitting venues (Wexford, Gorey, Enniscorthy, New Ross named) and the Circuit Court venue before publication. Rosslare Europort reference kept general and does not assert any customs or immigration procedure."
 ---
