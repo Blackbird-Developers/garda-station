@@ -15,7 +15,7 @@
       "weekend-out-of-hours"
     ],
     "schema": "WebPage",
-    "hero_image": "corridor",
+    "hero_image": "garda-members",
     "word_count": 1174
   },
   {
@@ -34,7 +34,7 @@
       "legal-aid"
     ],
     "schema": "LegalService",
-    "hero_image": "georgian-door",
+    "hero_image": "garda-station",
     "word_count": 931
   },
   {
@@ -53,7 +53,7 @@
       "legal-aid"
     ],
     "schema": "WebPage",
-    "hero_image": "consultation-room",
+    "hero_image": "garda-sign",
     "word_count": 1181
   },
   {
@@ -75,7 +75,7 @@
       "contact"
     ],
     "schema": "LegalService",
-    "hero_image": "hero-dublin",
+    "hero_image": "garda-station",
     "word_count": 1173
   },
   {
@@ -94,7 +94,7 @@
       "weekend-out-of-hours"
     ],
     "schema": "WebPage",
-    "hero_image": "consultation-room",
+    "hero_image": "garda-station",
     "word_count": 1180
   },
   {
@@ -113,7 +113,7 @@
       "contact"
     ],
     "schema": "Attorney",
-    "hero_image": "law-library",
+    "hero_image": "garda-station",
     "word_count": 1265
   },
   {
@@ -132,7 +132,7 @@
       "contact"
     ],
     "schema": "WebPage",
-    "hero_image": "georgian-door",
+    "hero_image": "garda-station",
     "word_count": 1179
   },
   {
@@ -151,7 +151,7 @@
       "contact"
     ],
     "schema": "LegalService",
-    "hero_image": "night-street",
+    "hero_image": "garda-car",
     "word_count": 1160
   },
   {
@@ -170,7 +170,7 @@
       "contact"
     ],
     "schema": "WebPage",
-    "hero_image": "law-library",
+    "hero_image": "garda-sign",
     "word_count": 1174
   },
   {
@@ -188,7 +188,7 @@
       "garda-station-solicitor-dublin"
     ],
     "schema": "LegalService",
-    "hero_image": "night-street",
+    "hero_image": "garda-sign",
     "word_count": 657
   },
   {
@@ -206,7 +206,7 @@
       "voluntary-attendance"
     ],
     "schema": "LegalService",
-    "hero_image": "night-street",
+    "hero_image": "garda-sign",
     "word_count": 627
   },
   {
@@ -224,7 +224,7 @@
       "voluntary-attendance"
     ],
     "schema": "LegalService",
-    "hero_image": "night-street",
+    "hero_image": "garda-sign",
     "word_count": 646
   },
   {
@@ -242,7 +242,7 @@
       "voluntary-attendance"
     ],
     "schema": "LegalService",
-    "hero_image": "night-street",
+    "hero_image": "garda-sign",
     "word_count": 641
   },
   {
@@ -260,7 +260,7 @@
       "weekend-out-of-hours"
     ],
     "schema": "LegalService",
-    "hero_image": "night-street",
+    "hero_image": "garda-sign",
     "word_count": 659
   },
   {
@@ -278,7 +278,7 @@
       "criminal-courts-of-justice"
     ],
     "schema": "LegalService",
-    "hero_image": "hero-dublin",
+    "hero_image": "garda-sign",
     "word_count": 657
   },
   {
@@ -296,7 +296,7 @@
       "voluntary-attendance"
     ],
     "schema": "LegalService",
-    "hero_image": "night-street",
+    "hero_image": "garda-sign",
     "word_count": 673
   },
   {
@@ -314,7 +314,7 @@
       "weekend-out-of-hours"
     ],
     "schema": "LegalService",
-    "hero_image": "night-street",
+    "hero_image": "garda-sign",
     "word_count": 664
   },
   {
@@ -332,7 +332,7 @@
       "garda-station-solicitor-dublin"
     ],
     "schema": "LegalService",
-    "hero_image": "night-street",
+    "hero_image": "garda-sign",
     "word_count": 641
   },
   {
@@ -350,7 +350,7 @@
       "garda-station-solicitor-dublin"
     ],
     "schema": "LegalService",
-    "hero_image": "night-street",
+    "hero_image": "garda-sign",
     "word_count": 646
   },
   {
@@ -368,7 +368,7 @@
       "garda-station-solicitor-dublin"
     ],
     "schema": "LegalService",
-    "hero_image": "night-street",
+    "hero_image": "garda-sign",
     "word_count": 635
   },
   {
@@ -386,7 +386,7 @@
       "family-member-arrested"
     ],
     "schema": "LegalService",
-    "hero_image": "night-street",
+    "hero_image": "garda-sign",
     "word_count": 635
   },
   {
@@ -404,7 +404,7 @@
       "voluntary-attendance"
     ],
     "schema": "LegalService",
-    "hero_image": "night-street",
+    "hero_image": "garda-sign",
     "word_count": 666
   },
   {
@@ -422,7 +422,7 @@
       "garda-station-solicitor-dublin"
     ],
     "schema": "LegalService",
-    "hero_image": "night-street",
+    "hero_image": "garda-sign",
     "word_count": 636
   },
   {
@@ -440,7 +440,7 @@
       "garda-station-solicitor-dublin"
     ],
     "schema": "LegalService",
-    "hero_image": "night-street",
+    "hero_image": "garda-sign",
     "word_count": 662
   },
   {
@@ -458,7 +458,7 @@
       "weekend-out-of-hours"
     ],
     "schema": "LegalService",
-    "hero_image": "night-street",
+    "hero_image": "garda-sign",
     "word_count": 664
   },
   {
@@ -476,7 +476,7 @@
       "garda-station-solicitor-dublin"
     ],
     "schema": "LegalService",
-    "hero_image": "night-street",
+    "hero_image": "garda-sign",
     "word_count": 630
   },
   {
@@ -494,7 +494,7 @@
       "family-member-arrested"
     ],
     "schema": "LegalService",
-    "hero_image": "night-street",
+    "hero_image": "garda-sign",
     "word_count": 656
   },
   {
@@ -512,7 +512,7 @@
       "garda-station-solicitor-dublin"
     ],
     "schema": "LegalService",
-    "hero_image": "night-street",
+    "hero_image": "garda-sign",
     "word_count": 630
   },
   {
@@ -530,7 +530,7 @@
       "family-member-arrested"
     ],
     "schema": "LegalService",
-    "hero_image": "night-street",
+    "hero_image": "garda-sign",
     "word_count": 638
   },
   {
@@ -548,7 +548,7 @@
       "weekend-out-of-hours"
     ],
     "schema": "LegalService",
-    "hero_image": "night-street",
+    "hero_image": "garda-sign",
     "word_count": 642
   },
   {
@@ -566,7 +566,7 @@
       "voluntary-attendance"
     ],
     "schema": "LegalService",
-    "hero_image": "night-street",
+    "hero_image": "garda-sign",
     "word_count": 629
   },
   {
@@ -584,7 +584,7 @@
       "weekend-out-of-hours"
     ],
     "schema": "LegalService",
-    "hero_image": "night-street",
+    "hero_image": "garda-sign",
     "word_count": 634
   },
   {
@@ -602,7 +602,7 @@
       "garda-station-solicitor-dublin"
     ],
     "schema": "LegalService",
-    "hero_image": "night-street",
+    "hero_image": "garda-sign",
     "word_count": 637
   },
   {
@@ -620,7 +620,7 @@
       "garda-station-solicitor-dublin"
     ],
     "schema": "LegalService",
-    "hero_image": "night-street",
+    "hero_image": "garda-sign",
     "word_count": 659
   },
   {
@@ -638,7 +638,7 @@
       "garda-station-solicitor-dublin"
     ],
     "schema": "LegalService",
-    "hero_image": "night-street",
+    "hero_image": "garda-sign",
     "word_count": 635
   },
   {
@@ -656,7 +656,7 @@
       "tony-collier"
     ],
     "schema": "LegalService",
-    "hero_image": "courts",
+    "hero_image": "garda-station",
     "word_count": 757
   },
   {
@@ -675,7 +675,7 @@
       "legal-aid"
     ],
     "schema": "LegalService",
-    "hero_image": "courts",
+    "hero_image": "garda-sign",
     "word_count": 771
   },
   {
@@ -693,7 +693,7 @@
       "tony-collier"
     ],
     "schema": "LegalService",
-    "hero_image": "courts",
+    "hero_image": "garda-station",
     "word_count": 760
   },
   {
@@ -713,7 +713,7 @@
       "tony-collier"
     ],
     "schema": "LegalService",
-    "hero_image": "courts",
+    "hero_image": "garda-station",
     "word_count": 753
   },
   {
@@ -731,7 +731,7 @@
       "legal-aid"
     ],
     "schema": "LegalService",
-    "hero_image": "courts",
+    "hero_image": "garda-sign",
     "word_count": 761
   },
   {
@@ -749,7 +749,7 @@
       "tony-collier"
     ],
     "schema": "LegalService",
-    "hero_image": "courts",
+    "hero_image": "garda-station",
     "word_count": 751
   },
   {
@@ -767,7 +767,7 @@
       "arrested"
     ],
     "schema": "LegalService",
-    "hero_image": "georgian-door",
+    "hero_image": "garda-station",
     "word_count": 615
   },
   {
@@ -785,7 +785,7 @@
       "arrested"
     ],
     "schema": "LegalService",
-    "hero_image": "georgian-door",
+    "hero_image": "garda-sign",
     "word_count": 621
   },
   {
@@ -803,7 +803,7 @@
       "arrested"
     ],
     "schema": "LegalService",
-    "hero_image": "georgian-door",
+    "hero_image": "garda-station",
     "word_count": 624
   },
   {
@@ -821,7 +821,7 @@
       "criminal-courts-of-justice"
     ],
     "schema": "LegalService",
-    "hero_image": "georgian-door",
+    "hero_image": "garda-station",
     "word_count": 615
   },
   {
@@ -839,7 +839,7 @@
       "arrested"
     ],
     "schema": "LegalService",
-    "hero_image": "georgian-door",
+    "hero_image": "garda-station",
     "word_count": 595
   },
   {
@@ -858,7 +858,7 @@
       "contact"
     ],
     "schema": "WebPage",
-    "hero_image": "corridor",
+    "hero_image": "garda-car",
     "word_count": 614
   },
   {
@@ -878,7 +878,7 @@
       "legal-aid"
     ],
     "schema": "LegalService",
-    "hero_image": "corridor",
+    "hero_image": "garda-members",
     "word_count": 854
   },
   {
@@ -898,7 +898,7 @@
       "legal-aid"
     ],
     "schema": "LegalService",
-    "hero_image": "night-street",
+    "hero_image": "garda-car",
     "word_count": 887
   },
   {
@@ -918,7 +918,7 @@
       "legal-aid"
     ],
     "schema": "LegalService",
-    "hero_image": "law-library",
+    "hero_image": "garda-station",
     "word_count": 884
   },
   {
@@ -938,7 +938,7 @@
       "legal-aid"
     ],
     "schema": "LegalService",
-    "hero_image": "courts",
+    "hero_image": "garda-station",
     "word_count": 849
   },
   {
@@ -958,7 +958,7 @@
       "assault"
     ],
     "schema": "LegalService",
-    "hero_image": "night-street",
+    "hero_image": "garda-car",
     "word_count": 873
   },
   {
@@ -978,7 +978,7 @@
       "legal-aid"
     ],
     "schema": "LegalService",
-    "hero_image": "night-street",
+    "hero_image": "garda-car",
     "word_count": 922
   },
   {
@@ -998,7 +998,7 @@
       "legal-aid"
     ],
     "schema": "LegalService",
-    "hero_image": "consultation-room",
+    "hero_image": "garda-sign",
     "word_count": 902
   },
   {
@@ -1018,7 +1018,7 @@
       "contact"
     ],
     "schema": "LegalService",
-    "hero_image": "law-library",
+    "hero_image": "garda-station",
     "word_count": 867
   }
 ]

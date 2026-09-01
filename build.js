@@ -289,14 +289,30 @@ ${cta ? `    <p class="authority-cta"><a class="btn btn-green" href="${urlFor(TO
 </div>`;
 }
 
+/* Least scrim each photograph can take while every hero text band still
+ * measures >= 4.5:1 against white. Derived by compositing the real image under
+ * the real gradient at the real hero box and reading the 95th-percentile
+ * brightest pixel per band, not by eye. Bright subjects need more; re-measure
+ * if a photograph is swapped. */
+const HERO_SCRIM = {
+  'garda-station': { top: .293, a: .401, b: .570, bot: .651, side: .249 },
+  'garda-sign':    { top: .344, a: .465, b: .642, bot: .723, side: .294 },
+  'garda-car':     { top: .363, a: .488, b: .667, bot: .747, side: .311 },
+  'garda-members': { top: .165, a: .235, b: .356, bot: .423, side: .138 },
+};
+const SCRIM_FALLBACK = { top: .38, a: .50, b: .68, bot: .76, side: .32 };
+
 function heroMediaStyle(heroImage) {
-  return `background-image:image-set(url('/assets/img/${heroImage}.webp') type('image/webp'), url('/assets/img/${heroImage}.jpg') type('image/jpeg'))`;
+  const k = HERO_SCRIM[heroImage] || SCRIM_FALLBACK;
+  return `background-image:image-set(url('/assets/img/${heroImage}.webp') type('image/webp'), url('/assets/img/${heroImage}.jpg') type('image/jpeg'))`
+    + `;--s-top:${k.top};--s-a:${k.a};--s-b:${k.b};--s-bot:${k.bot};--s-side:${k.side}`;
 }
 
-// Task #123yxuagbe2: 29 of 54 pages declare night-street, which reads as
-// repetitive across the 26 county pages. The task allows "vary by province",
-// so county pages that declare night-street get a province-keyed variant
-// instead (frontmatter is untouched; this is presentation only).
+// Task #123yxuagbe2: the county tier would otherwise run one hero across all
+// 26 pages, which reads as repetitive. The task allows "vary by province", so
+// county pages get a province-keyed variant instead (frontmatter is untouched;
+// this is presentation only). With only four photographs available this gives
+// three distinct county heroes, not 26; see _HANDOFF.md s5.3.
 const PROVINCE = {
   carlow: 'L', dublin: 'L', kildare: 'L', kilkenny: 'L', laois: 'L', longford: 'L',
   louth: 'L', meath: 'L', offaly: 'L', westmeath: 'L', wexford: 'L', wicklow: 'L',
@@ -304,10 +320,13 @@ const PROVINCE = {
   galway: 'C', leitrim: 'C', mayo: 'C', roscommon: 'C', sligo: 'C',
   cavan: 'U', donegal: 'U', monaghan: 'U',
 };
-const PROVINCE_HERO = { L: 'night-street', M: 'corridor', C: 'georgian-door', U: 'hero-dublin-alt' };
+// Repointed at the replacement photographs. garda-members is deliberately not
+// in this map: it reads as a detention and putting it on a tier of 26 county
+// pages would be sensational, which _BRIEF.md s4.4 rules out.
+const PROVINCE_HERO = { L: 'garda-sign', M: 'garda-station', C: 'garda-car', U: 'garda-sign' };
 
 function effectiveHero(fm) {
-  if (fm.page_type === 'county' && fm.hero_image === 'night-street') {
+  if (fm.page_type === 'county' && fm.hero_image === 'garda-sign') {
     const county = fm.slug.replace('garda-station-solicitor-', '');
     const prov = PROVINCE[county];
     if (prov) return PROVINCE_HERO[prov];
@@ -541,7 +560,7 @@ ${authorityHtml({
 </section>
 ` : ''}
 <section class="cta-band">
-  <div class="cta-media" style="${heroMediaStyle('night-street')}"></div>
+  <div class="cta-media" style="${heroMediaStyle('garda-station')}"></div>
   <div class="wrap">
     <h2>Talk to a solicitor before you talk to the Gardai.</h2>
     <p>One call, at any hour. If you qualify for legal aid it costs you nothing &mdash;

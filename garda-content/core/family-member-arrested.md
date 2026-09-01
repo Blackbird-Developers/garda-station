@@ -19,7 +19,7 @@ internal_links:
   - weekend-out-of-hours
   - legal-aid
 schema: WebPage
-hero_image: consultation-room
+hero_image: garda-sign
 hook: "Has someone rung you from a station?"
 hook_answer: >-
   You can instruct a solicitor on their behalf and you do not need to reach them first. Ring

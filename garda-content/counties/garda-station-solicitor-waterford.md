@@ -13,7 +13,7 @@ internal_links:
   - arrested
   - weekend-out-of-hours
 schema: LegalService
-hero_image: night-street
+hero_image: garda-sign
 legal_review_required: true
 notes: "No Waterford office; stated on the page. Please confirm the current District Court sitting venues for Waterford (Waterford city and Dungarvan named here) and the city courthouse address against the Courts Service before publication. District numbers omitted deliberately."
 ---

@@ -13,7 +13,7 @@ internal_links:
   - arrested
   - garda-station-solicitor-dublin
 schema: LegalService
-hero_image: night-street
+hero_image: garda-sign
 legal_review_required: true
 notes: "No Westmeath office; stated on the page. Please confirm current District Court sitting venues (Mullingar, Athlone) and whether Castlepollard or Kilbeggan still sit, before publication. Athlone straddles the Shannon and part of the town is in Roscommon; wording kept general."
 ---

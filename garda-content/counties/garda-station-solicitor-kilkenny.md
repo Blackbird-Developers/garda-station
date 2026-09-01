@@ -13,7 +13,7 @@ internal_links:
   - arrested
   - garda-station-solicitor-dublin
 schema: LegalService
-hero_image: night-street
+hero_image: garda-sign
 legal_review_required: true
 notes: "No Kilkenny office; stated on the page. District and Circuit Court venue named as Kilkenny Courthouse, Parliament Street. Sittings at Callan, Thomastown and Castlecomer are not asserted as court venues; verify against Courts Service lists if they are to be added."
 ---

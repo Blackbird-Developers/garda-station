@@ -13,7 +13,7 @@ internal_links:
   - legal-aid
   - arrested
 schema: LegalService
-hero_image: georgian-door
+hero_image: garda-station
 legal_review_required: true
 notes: "Station coverage list is based on north Dublin geography and should be confirmed by the firm against the stations we genuinely attend, in particular whether we take airport arrests. Transport kept general, no route numbers or parking claims. No opening hours stated."
 ---

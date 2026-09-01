@@ -14,7 +14,7 @@ internal_links:
   - weekend-out-of-hours
   - contact
 schema: WebPage
-hero_image: corridor
+hero_image: garda-car
 hook: "Outside Dublin and unsure whether we can reach you?"
 hook_answer: >-
   Our offices are in Dublin. We act for clients around the country and will travel for serious

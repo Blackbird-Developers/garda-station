@@ -19,7 +19,7 @@ internal_links:
   - legal-aid
   - contact
 schema: WebPage
-hero_image: georgian-door
+hero_image: garda-station
 hook: "Been asked in for a chat?"
 hook_answer: >-
   A voluntary attendance is still an interview, and what you say in it can be used in evidence

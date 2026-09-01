@@ -13,7 +13,7 @@ internal_links:
   - legal-aid
   - criminal-courts-of-justice
 schema: LegalService
-hero_image: georgian-door
+hero_image: garda-station
 legal_review_required: true
 notes: "Station coverage list is based on Dublin city centre and north inner city geography and should be confirmed by the firm against the stations we genuinely attend. Travel description for the Criminal Courts of Justice kept general. No opening hours stated."
 ---

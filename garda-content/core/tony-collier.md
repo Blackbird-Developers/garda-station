@@ -19,7 +19,7 @@ internal_links:
   - weekend-out-of-hours
   - contact
 schema: Attorney
-hero_image: law-library
+hero_image: garda-station
 hook: "Wondering who will actually turn up?"
 hook_answer: >-
   Out of hours attendances are covered on a rota of six criminal defence solicitors, so the

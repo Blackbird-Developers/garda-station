@@ -13,7 +13,7 @@ internal_links:
   - arrested
   - garda-station-solicitor-dublin
 schema: LegalService
-hero_image: night-street
+hero_image: garda-sign
 legal_review_required: true
 notes: "No Kildare office; stated on the page. Please confirm which District Court venues in Kildare currently sit (Naas and Athy named here) before publication, and whether Kildare town or Maynooth sittings should be added."
 ---

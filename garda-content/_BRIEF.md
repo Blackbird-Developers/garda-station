@@ -113,7 +113,7 @@ internal_links:              # slugs this page should link to
   - your-rights
   - legal-aid
 schema: LegalService         # LegalService | FAQPage-not-used | Attorney | WebPage
-hero_image: hero-dublin      # hero-dublin | courts | consultation-room | law-library | night-street | georgian-door | corridor
+hero_image: garda-station    # garda-station | garda-sign | garda-car | garda-members
 legal_review_required: true
 notes: "Anything the reviewing solicitor or the developer needs to know."
 ---

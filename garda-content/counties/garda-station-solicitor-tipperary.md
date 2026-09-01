@@ -13,7 +13,7 @@ internal_links:
   - arrested
   - voluntary-attendance
 schema: LegalService
-hero_image: night-street
+hero_image: garda-sign
 legal_review_required: true
 notes: "No Tipperary office; stated on the page. Please confirm current District Court sitting venues for Tipperary (Clonmel, Thurles, Nenagh, Tipperary Town, Cashel, Carrick-on-Suir and Roscrea named here) and the Circuit Criminal venues, against the Courts Service before publication. District numbers omitted deliberately."
 ---

@@ -20,7 +20,7 @@ internal_links:
   - your-rights
   - legal-aid
 schema: LegalService
-hero_image: consultation-room
+hero_image: garda-sign
 hook: "Contacted by Gardai about an allegation?"
 hook_answer: >-
   Do not discuss it with anyone, including the complainant, family or friends, and do not

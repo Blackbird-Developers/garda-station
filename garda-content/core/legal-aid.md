@@ -19,7 +19,7 @@ internal_links:
   - contact
   - weekend-out-of-hours
 schema: WebPage
-hero_image: consultation-room
+hero_image: garda-station
 hook: "Worried about what this is going to cost?"
 hook_answer: >-
   Advice at the Garda station is free of charge for most people under the Garda Station Legal

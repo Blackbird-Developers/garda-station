@@ -13,7 +13,7 @@ internal_links:
   - arrested
   - weekend-out-of-hours
 schema: LegalService
-hero_image: night-street
+hero_image: garda-sign
 legal_review_required: true
 notes: "No Mayo office; stated on the page. Please confirm current District Court sitting venues for Mayo (Castlebar, Ballina, Westport, Swinford and Belmullet named here) against the Courts Service before publication; Achill and Claremorris omitted as unverified. District numbers omitted deliberately."
 ---

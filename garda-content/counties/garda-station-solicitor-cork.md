@@ -13,7 +13,7 @@ internal_links:
   - arrested
   - voluntary-attendance
 schema: LegalService
-hero_image: night-street
+hero_image: garda-sign
 legal_review_required: true
 notes: "No Cork office; stated plainly on the page. Cork is one of the furthest large centres from our Dublin offices and the travel section is deliberately cautious. Station list is principal stations only. Please confirm current District Court venue lists for Cork city and county against the Courts Service before publication. District Court district numbers deliberately omitted rather than risk an incorrect figure."
 ---

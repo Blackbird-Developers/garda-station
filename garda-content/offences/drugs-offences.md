@@ -20,7 +20,7 @@ internal_links:
   - voluntary-attendance
   - legal-aid
 schema: LegalService
-hero_image: night-street
+hero_image: garda-car
 hook: "Arrested or asked in over drugs?"
 hook_answer: >-
   At this stage what matters is the quantity, where it was found and what the Gardai say you

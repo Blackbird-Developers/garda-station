@@ -20,7 +20,7 @@ internal_links:
   - legal-aid
   - assault
 schema: LegalService
-hero_image: night-street
+hero_image: garda-car
 hook: "Arrested on a night out?"
 hook_answer: >-
   Public order matters feel minor at the time and are dealt with quickly, which is exactly why
